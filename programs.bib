@@ -1,0 +1,260 @@
+@article{ Duo,
+title = {Duo: A general program for calculating spectra of diatomic molecules },
+journal = CPC,
+volume = {202},
+number = {},
+pages = {262 - 275},
+year = {2016},
+note = {},
+issn = {0010-4655},
+doi = {http://dx.doi.org/10.1016/j.cpc.2015.12.021},
+url = {http://www.sciencedirect.com/science/article/pii/S0010465516000023},
+author = {Sergei N. Yurchenko and Lorenzo Lodi and Jonathan Tennyson and Andrey V. Stolyarov},
+keywords = {Diatomics,Spectroscopy,One-dimensional Schr�dinger equation,Excited electronic states,Intramolecular perturbation,
+Coupled-channel radial equations,Transition probabilities,Intensities },
+abstract = {Duo is a general, user-friendly program for computing rotational, rovibrational and rovibronic spectra of diatomic molecules. Duo solves the Schr�dinger equation for the motion of the nuclei not only for the simple case of uncoupled, isolated electronic states (typical for the ground state of closed-shell diatomics) but also for the general case of an arbitrary number and type of couplings between electronic states (typical for open-shell diatomics and excited states). Possible couplings include spin�orbit, angular momenta, spin-rotational and spin�spin. Corrections due to non-adiabatic effects can be accounted for by introducing the relevant couplings using so-called Born�Oppenheimer breakdown curves. Duo requires user-specified potential energy curves and, if relevant, dipole moment, coupling and correction curves. From these it computes energy levels, line positions and line intensities. Several analytic forms plus interpolation and extrapolation options are available for representation of the curves. Duo can refine potential energy and coupling curves to best reproduce reference data such as experimental energy levels or line positions. Duo is provided as a Fortran�2003 program and has been tested under a variety of operating systems. Program summary Program title:Duo Catalogue identifier: AEZJ_v1_0 rogram summary URL:http://cpc.cs.qub.ac.uk/summaries/AEZJ_v1_0.html Program obtainable from: \{CPC\} Program Library, Queen�s University, Belfast, N. Ireland Licensing provisions: Standard \{CPC\} licence, http://cpc.cs.qub.ac.uk/licence/licence.html No. of lines in distributed program, including test data, etc.: 187443 No. of bytes in distributed program, including test data, etc.: 6968371 Distribution format: tar.gz Programming language: Fortran 2003. Computer: Any personal computer. Operating system: Linux, Windows, Mac OS. Has the code been vectorized or parallelized?: Parallelized RAM: Case dependent, typically &lt; 10 \{MB\} Classification: 4.3, 4.9, 16.2, 16.3. Nature of problem: Solving the Schr�dinger equation for the nuclear motion of a diatomic molecule with an arbitrary number and type of couplings between electronic states. Solution method: Solution of the uncoupled problem first, then basis set truncation and solution of the coupled problem. A line list can be computed if a dipole moment function is provided. The potential energy and other curves can be empirically refined by fitting to experimental energies or frequencies, when provided. Restrictions: The current version is restricted to bound states of the system. Unusual features: User supplied curves for all objects (potential energies, spin�orbit and other couplings, dipole moment etc.) as analytic functions or on a grid is a program requirement. Running time: Case dependent. The test runs provided take seconds or a few minutes on a normal PC. }
+}
+
+@article{PHOENIX,
+        Author = {Jack, D and Hauschildt, P H and Baron, E},
+        Journal = AA,
+        Pages = {1043--1049},
+        Title = {Time-dependent radiative transfer with PHOENIX},
+        Volume = {502},
+        Year = {2009}}
+
+@article{ DVR3D,
+Author = {Tennyson, J and Kostin, M A and Barletta, P and Harris, G J and Polyansky,
+   O L and Ramanlal, J and Zobov, N F},
+Title = {DVR3D: a program suite for the calculation of rotation-vibration spectra
+   of triatomic molecules},
+Journal = CPC,
+Year = {2004},
+Volume = {163},
+Number = {2},
+Pages = {85-116},
+Month = {NOV 1},
+Abstract = {The DVR3D program suite calculates energy levels, wavefunctions, and
+   where appropriate dipole transition moments, for rotating and vibrating
+   triatomic molecules. Potential energy and, where necessary, dipole
+   surfaces must be provided. Expectation values of geometrically defined
+   functions can be calculated, a feature which is particularly useful for
+   fitting potential energy surfaces. The programs use an exact (within the
+   Born-Oppenheimer approximation) Hamiltonian and offer a choice of Jacobi
+   or Radau internal coordinates and several body-fixed axes. Rotationally
+   excited states are treated using an efficient two-step algorithm. The
+   programs uses a Discrete Variable Representation (DVR) based on
+   Gauss-Jacobi and Gauss-Laguerre quadrature for all 3 internal
+   coordinates and thus yields a fully point-wise representation of the
+   wavefunctions. The vibrational step uses successive diagonalisation and
+   truncation which is implemented for a number of possible coordinate
+   orderings. The rotational, expectation value and transition dipole
+   programs exploit the savings offered by performing integrals on a DVR
+   grid. The new version has been rewritten in FORTRAN 90 to exploit the
+   dynamic array allocations and the algorithm for dipole and spectra
+   calculations have been substantially improved. New modules allow the
+   z-axis to be embedded perpendicular to the plane of the molecule and for
+   the calculation of expectation values.},
+DOI = {10.1016/j.cpc.2003.10.003},
+Keywords = {molecular spectra; infrared; microwave; variational principle;
+   expectation values; Born-Oppenheimer approximation; triatomic molecules},
+Keywords-Plus = {POTENTIAL-ENERGY SURFACE; AB-INITIO CALCULATION; VARIATIONAL
+   CALCULATIONS; TRANSITION INTENSITIES; SPECTROSCOPIC ACCURACY;
+   PARTITION-FUNCTIONS; FLOPPY MOLECULES; LINE ASSIGNMENTS; H-3(+)
+   MOLECULE; 1ST PRINCIPLES},
+ResearcherID-Numbers = {Tennyson, Jonathan/I-2222-2012},
+ORCID-Numbers = {Tennyson, Jonathan/0000-0002-4994-5238},
+Journal-ISO = {Comput. Phys. Commun.},
+Unique-ID = {ISI:000224788900003},
+}
+
+@MANUAL{ Level,
+  title = {{LEVEL 8.0} A Computer Program for Solving the Radial Schr\"odinger
+	Equation for Bound and Quasibound Levels},
+  author = {{Le Roy}, R. J. },
+  organization = {University of Waterloo Chemical Physics Research Report CP-663 },
+  address = {\url{http://leroy.uwaterloo.ca/programs/}},
+  year = {2007}
+}
+
+@article{ TROVE,
+	Abstract = {We present a new computational method with associated computer program
+	TROVE (Theoretical ROVibrational Energies) to perform variational
+	calculations of rovibrational energies for general polyatomic molecules
+	of arbitrary structure in isolated electronic states. The (approximate)
+	nuclear kinetic energy operator is represented as an expansion in
+	terms of internal coordinates. The main feature of the computational
+	scheme is a numerical construction of the kinetic energy operator,
+	which is an integral part of the computation process. Thus the scheme
+	is self-contained, i.e., it requires no analytical pre-derivation
+	of the kinetic energy operator. It is also general, since it can
+	be used in connection with any internal coordinates. The method represents
+	an extension of our model for pyramidal XY3 molecules reported previously
+	{[}S.N. Yurchenko, M. Carvajal, P. Jensen, H. Lin, J.J. Zheng, W.
+	Thiel, Mol. Phys. 103 (2005) 359]. Non-rigid molecules are treated
+	in the Hougen-Bunker-Johns approach {[}J.T. Hougen, P.R. Bunker,
+	J.W.C. Johns, J. Mol. Spectrosc. 34 (1970) 136]. In this case, the
+	variational calculations employ a numerical finite basis representation
+	for the large-amplitude motion using basis functions that are generated
+	by Numerov-Cooley integration of the appropriate one-dimensional
+	Schrodinger equation. (c) 2007 Elsevier Inc. All rights reserved.},
+	Author = {Yurchenko, Sergei N. and Thiel, Walter and Jensen, Per},
+	Doi = {10.1016/j.jms.2007.07.009},
+	Journal = JMS,
+	Journal-Iso = {J. Mol. Spectrosc.},
+	Pages = {126-140},
+	Title = {Theoretical {ROV}ibrational {E}nergies ({TROVE}): {A} robust numerical approach to the calculation of rovibrational energies for polyatomic molecules},
+	Volume = {245},
+	Year = {2007}
+}
+
+@article{MOLPRO,
+	Abstract = {Molpro (available at http://www.molpro.net) is a general-purpose quantum
+	chemical program. The original focus was on high-accuracy wave function
+	calculations for small molecules, but using local approximations
+	combined with explicit correlation treatments, highly accurate coupled-cluster
+	calculations are now possible for molecules with up to approximately
+	100 atoms. Recently, multireference correlation treatments were also
+	made applicable to larger molecules. Furthermore, an efficient implementation
+	of density functional theory is available.},
+	Author = {Werner, Hans-Joachim and Knowles, Peter J. and Knizia, Gerald and Manby, Frederick R. and Sch\"utz, Martin},
+	Doi = {10.1002/wcms.82},
+	Journal = {WIREs Comput. Mol. Sci.},
+	Pages = {242--253},
+	Title = {Molpro: a general-purpose quantum chemistry program package},
+	Volume = {2},
+	Year = {2012}
+}
+
+@Article{jt339 ,
+author = {I. N. Kozin AND M. M. Law AND J. Tennyson AND J. M. Hutson},
+title = {{New vibration-rotation code for tetraatomic molecules WAVR4}},
+journal = CPC,
+year  = {2004},
+volume  = {163},
+pages = {117-131},
+OPTfile_num = {339}
+}
+
+
+@article{ WAVR4,
+Author = {Kozin, IN and Law, MM and Tennyson, J and Hutson, JM},
+Title = {New vibration-rotation code for tetraatomic molecules exhibiting
+   wide-amplitude motion: WAVR4},
+Journal = CPC,
+Year = {2004},
+Volume = {163},
+Number = {2},
+Pages = {117-131},
+Month = {NOV 1},
+Abstract = {A general computational method for the accurate calculation of
+   rotationally and vibrationally excited states of tetraatomic molecules
+   is developed. The resulting program is particularly appropriate for
+   molecules executing wide-amplitude motions and isomerizations. The
+   program offers a choice of coordinate systems based on Radau, Jacobi,
+   diatom-diatom and orthogonal satellite vectors. The method includes all
+   six vibrational dimensions plus three rotational dimensions.
+   Vibration-rotation calculations with reduced dimensionality in the
+   radial degrees of freedom are easily tackled via constraints imposed on
+   the radial coordinates via the input file.},
+DOI = {10.1016/j.cpc.2004.07.005},
+Keywords = {ro-vibrational; bound states; wavefunctions; body-fixed; discrete
+   variable representatiom; finite basis representation; tetraatomic;
+   4-atom},
+Journal-ISO = {Comput. Phys. Commun.},
+Unique-ID = {ISI:000224788900004},
+}
+
+@ARTICLE{MULTIMODE,
+  author = {Carter, Stuart and Sharma, Amit R. and Bowman, Joel M. and Rosmus,
+	Pavel and Tarroni, Riccardo},
+  title = {Calculations of rovibrational energies and dipole transition intensities
+	for polyatomic molecules using MULTIMODE},
+  journal = JCP,
+  year = {2009},
+  volume = {131},
+  pages = {224106},
+  doi = {http://dx.doi.org/10.1063/1.3266577}
+}
+
+@ARTICLE{ VTET,
+  author = { D. W. Schwenke},
+  title = {Variational calculations of rovibrational energy levels and transition
+	intensities for tetratomic molecules},
+  journal = JPC,
+  year = {1996},
+  volume = {100},
+  pages = {2867-2884},
+  abstract = {A description is given of an algorithm for computing rovibrational
+	energy levels for tetratomic molecules. The expressions required
+	for evaluating transition intensities are also given. The variational
+	principle is used to determine the energy levels, and the kinetic
+	energy operator is simple and evaluated exactly. The computational
+	procedure is split up into the determination of one-dimensional radial
+	basis functions, the computation of a contracted rotational-bending
+	basis, followed by a final variational step coupling all degrees
+	of freedom. An angular basis is proposed whereby the rotational-bending
+	contraction takes place in three steps. Angular matrix elements of
+	the potential are evaluated by expansion in terms of a suitable basis,
+	and the angular integrals are given in a factorized form which simplifies
+	their evaluation. The basis functions in the final variational step
+	have the full permutation symmetries of the identical particles.
+	Sample results are given for HCCH and BH3.}
+}
+
+
+@ARTICLE{ MORBID,
+  author = {Jensen, P},
+  title = {A NEW MORSE OSCILLATOR-RIGID BENDER INTERNAL DYNAMICS (MORBID) HAMILTONIAN
+	FOR TRIATOMIC-MOLECULES},
+  journal = JMS,
+  year = {1988},
+  volume = {128},
+  pages = {478-501},
+  doi = {10.1016/0022-2852(88)90164-6},
+  journal-iso = {J. Mol. Spectrosc.},
+  times-cited = {199}
+}
+
+@article{MIRS ,
+Author = {Nikitin, A. V. and Rey, M. and Champion, J. P. and Tyuterev, Vl. G.},
+Title = {{Extension of the MIRS computer package for the modeling of molecular
+   spectra: From effective to full ab initio ro-vibrational Hamiltonians in
+   irreducible tensor form}},
+Journal = JQSRT,
+Year = {{2012}},
+Volume = {{113}},
+Pages = {{1034-1042}},
+DOI = {{10.1016/j.jqsrt.2012.01.027}},
+}
+
+
+@article{ PGOPHER,
+title = {PGOPHER: A program for simulating rotational, vibrational and electronic spectra },
+journal = JQSRT,
+volume = {},
+number = {},
+pages = { - },
+year = {2016},
+note = {},
+issn = {0022-4073},
+doi = {http://dx.doi.org/10.1016/j.jqsrt.2016.04.010},
+url = {http://www.sciencedirect.com/science/article/pii/S0022407316300437},
+author = {Colin M. Western},
+keywords = {Molecular spectra},
+keywords = {Rotational energy levels},
+keywords = {Perturbations},
+keywords = {Vibrational energy levels},
+keywords = {Hyperfine structure },
+abstract = {Abstract The pgopher program is a general purpose program for simulating and fitting molecular spectra, particularly the rotational structure. The current version can handle linear molecules, symmetric tops and asymmetric tops and many possible transitions, both allowed and forbidden, including multiphoton and Raman spectra in addition to the common electric dipole absorptions. Many different interactions can be included in the calculation, including those arising from electron and nuclear spin, and external electric and magnetic fields. Multiple states and interactions between them can also be accounted for, limited only by available memory. Fitting of experimental data can be to line positions (in many common formats), intensities or band contours and the parameters determined can be level populations as well as rotational constants. pgopher is provided with a powerful and flexible graphical user interface to simplify many of the tasks required in simulating, understanding and fitting molecular spectra, including Fortrat diagrams and energy level plots in addition to overlaying experimental and simulated spectra. The program is open source, and can be compiled with open source tools. This paper provides a formal description of the operation of version 9.1. }
+}
+
+
+@Article{ MARVEL,
+author = {T. Furtenbacher AND A. G. {Cs\'asz\'ar} AND J. Tennyson},
+title = {{MARVEL: measured active rotational-vibrational energy levels}},
+journal = JMS,
+year  = {2007},
+volume  = {245},
+pages = {115-125},
+}

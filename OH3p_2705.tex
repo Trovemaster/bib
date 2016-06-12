@@ -1,0 +1,642 @@
+%\documentclass[prb,preprint,preprintnumbers,amsmath,amssymb]{revtex4}
+\documentclass[prb,preprint,12pt,superscriptaddress,floatfix,bibnotes,nofootinbib,unsortedaddress,preprintnumbers,amsmath,amssymb]{revtex4}
+
+
+
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{epstopdf}
+\usepackage{xcolor} %\fcolorbox{yellow}{yellow}{ }
+
+\usepackage{color}
+
+\newcommand{\red}[1]{{\color{red} #1}}
+\newcommand{\blue}[1]{{\color{blue} #1}}
+\newcommand{\green}[1]{{\color{green} #1}}
+
+\newcommand{\cm}{cm$^{-1}$}
+
+\newcommand{\p}{^\prime}
+\newcommand{\pp}{^{\prime\prime}}
+
+
+%\nofiles
+
+\newcommand{\ibJ}{\mbox{\itshape\bfseries J}}
+\newcommand{\ibL}{\mbox{\itshape\bfseries L}}
+\newcommand{\ibN}{\mbox{\itshape\bfseries N}}
+\newcommand{\ibS}{\mbox{\itshape\bfseries S}}
+\newcommand{\citings}[6]{#1, {#2} \textbf{#3}, #4 (#6).}         % JCP-style
+\newcommand{\bibref}[7]{\bibitem{#1}\citings{#2}{#3}{#4}{#5}{#6}{#7}}
+\newcommand{\eref}[1]{(\ref{#1})}
+
+\newcommand{\ai}{\textit{ab initio}}
+\newcommand{\Ai}{\textit{Ab initio}}
+
+\newcommand{\TROVE}{{\sc TROVE}}
+\newcommand{\ohhh}{H$_3$O$^{+}$}
+\newcommand{\oddd}{D$_3$O$^{+}$}
+\newcommand{\ohhd}{H$_2$DO$^{+}$}
+\newcommand{\ohdd}{HD$_2$O$^{+}$}
+
+\newcommand{\Cv}[1]{${\mathcal C}_{#1{\rm v}}$}
+\newcommand{\Dh}[1]{${\mathcal D}_{#1{\rm h}}$}
+\newcommand{\Ch}[1]{${\mathcal C}_{#1{\rm h}}$}
+\newcommand{\Dd}[1]{${\mathcal D}_{#1{\rm d}}$}
+
+
+\newcommand{\2}{$_{2}$}
+\newcommand{\3}{$_{3}$}
+
+
+
+\def\deg{$^{\circ}$}
+\def\o{\phantom{0}}
+
+
+
+%=============================================================================
+
+\begin{document}
+
+
+\title{Radiative cooling of H$_3$O$^{+}$, HD$_2$O$^{+}$, H$_2$DO$^{+}$ and D$_3$O$^{+}$}
+
+%\title{Stability of ro-vibrational states of H$_3$O$^{+}$, HD$_2$O$^{+}$, H$_2$DO$^{+}$ and D$_3$O$^{+}$}
+
+\author{Vladlen V. Melnikov}%
+\thanks{Corresponding author.
+E-mail: melnikov@phys.tsu.ru} \affiliation{Siberian Institute of Physics \& Technology,
+Tomsk State University, Tomsk, 634050 Russia}%
+%Authors' institution and/or address\\
+%This line break forced with \textbackslash\textbackslash
+
+\author{Sergei N. Yurchenko}%
+\affiliation{Department of Physics \& Astronomy, University College London, London WC1E~6BT, UK}
+
+\author{Jonathan Tennyson}
+\affiliation{Department of Physics \& Astronomy, University College London, London WC1E~6BT, UK}
+
+\author{Per Jensen}
+\affiliation{FB~C~-- Theoretische Chemie, Bergische Universit{\"a}t Wuppertal, 42097 Wuppertal, Germany}
+
+
+
+\date{\today}% It is always \today, today,
+             %  but any date may be explicitly specified
+
+
+
+\begin{abstract}
+
+    A theoretical study of the radiative lifetimes of hydronium ion and its isotopologues is presented. \textit{Ab initio} potential energy and the dipole moment surfaces of the ground electronic states of H$_3$O$^{+}$ have been used to calculate ro-vibrational energy levels, wavefunctions and Einstein coefficients of the systems under consideration. A detailed analysis of the stability of the ro-vibrational states have been carried out and the most long-living states of the hydronium  ions. The estimated radiative lifetimes and cooling functions for low temperatures (approximately below 100~K) are presented.
+
+    %These estimates can be used to assess the cooling properties of hydronium ion for %applications in storage rings \red{CHECK}.
+
+\end{abstract}
+
+
+\maketitle
+
+
+%-----------------------------------------------------------------------------
+\section{Introduction}
+
+\blue{
+2. Proper quantum number designations for the (rotational) energy levels discussed. The
+quantum numbers for H3O+ and D3O+ are non standard but probably sufficient to uniquely
+identify each level. This probably acceptable if not ideal (it is better to conventional
+notation). For H2DO+ and HD2O+ the quantum numbers given are insufficient to characterise
+the level in question and this does not work: a full asymmetric top description ie Ka and Kc
+are required.
+}
+
+Molecules in Universe are found in a wide variety of environments: from diffuse
+clouds with very low temperatures to atmospheres of planets, brown dwarfs and
+cool stars which are significantly hotter. In order to investigate the evolution
+of such complex systems it is essential to have reasonable models of constituent
+species and for this purpose the radiative and cooling properties are of great
+importance.
+
+Although interstellar molecular clouds are usually characterised as cold, they
+are not really fully thermalized. Whether a species attains thermal equilibrium
+with the environment depends on the radiative lifetimes of its states and the
+rate for collisional excitations to the states: this is normally
+characterised by the critical density. In such regions radiative
+lifetimes are also important for models of the many species which are observed
+to mase. The long lifetimes associated with certain excited states can lead to
+population trapping and non-thermal distributions. Such behaviour was observed
+for the H$^+_3$ molecule both in space\cite{02GoMcGe.H3+, 05OkGeGo.H3+} and at
+the laboratory,\cite{02KrKrLa.H3+,04KrScTe.H3+} in both cases leading to the
+unexpected state distributions.
+
+Dissociative recombination of hydronium has also been extensively studied in ion storage rings.
+\cite{96AnHeKe.H3O+,00NeKhRo.H3O+,00JeBiSa.H3O+,10BuStMe.H3O+,10NoBuSt.H3O+}
+From the lifetimes calculated below, one can expect that H$_3$O$^{+}$ and it isotopomers
+will be the subject of population trapping in a similar manner to that observed
+for H$_3^+$ in storage rings. Dissociative recombination of hydronium
+has been postulated as the possible cause of emissions of from super-excited
+water in cometary coma \cite{jt452} and the mechanism for a spontaneous
+infrared water laser \cite{01SaKeWa.H3O+}.
+
+Hydronium and its isotopologues play an important role in planetary and
+interstellar chemistry.\cite{00JeBiSa.H3O+,01GoCexx.H3O+} These molecular ions
+are found to exist abundantly in both diffuse and dense molecular clouds as well
+as in comae. Moreover H$_3$O$^{+}$ is a water indicator of water and can be used to
+estimate its abundance when the direct detection is
+unfeasible.\cite{92PhVaKe.H3O+} Due to such importance these ions have been the
+subject of numerous theoretical and experimental studies (see, for example,
+Refs.~%
+\onlinecite{00JeBiSa.H3O+,01GoCexx.H3O+, 92PhVaKe.H3O+,  73LiDyxx.H3O+,
+80FeHaxx.H3O+, 82SpBuxx.H3O+, 83BeGuPf.H3O+, 84DaHaJo.H3O+, 84BuAmSp.H3O+,
+85BeSaxx.H3O+, 85LiOkxx.H3O+, 86DaJoHa.H3O+, 87GrPoSa.H3O+, 88HaLiOk.H3O+,
+88VeTeMe.H3O+, 90OkYeMy.H3O+, 90PeNeOw.H3O+,
+91HoPuOk.H3O+, 97UyWhOk.H3O+, 99ArOzSa.H3O+, 00ChJuGe.H3O+, 01AiOhIn.H3O+,
+02ErSoDo.H3O+, 02CaWaZu.H3O+, 03RaMiHa.NH3, 03HuCaBo.H3O+, 05YuBuJe.H3O+,
+06DoNexx.H3O+, 08FuFaxx.H3O+, 09YuDrPe.H3O+, 10MuDoNe.H3O+,
+12PeWeBe.H3O+,10BuStMe.H3O+} and references therein) mainly devoted to the
+spectroscopy and chemistry of the species. Cooling function of the H$_3^{+}$ ion
+has been extensively studied by Miller et al.\cite{jt181,10MiStMe.H3+,13MiStTe.H3+}
+
+Radiative and cooling properties for H$_3$O$^{+}$, HD$_2$O$^{+}$, H$_2$DO$^{+}$
+and D$_3$O$^{+}$ are not available in the literature. In the present
+work a theoretical study of the ro-vibrational states of these ions is carried
+out.  Using  an \ai\  potential energy surface (PES) and an \ai\ dipole moment surface
+(DMS) \cite{15OwYuPo.H3O+} for the ground electronic states of H$_3$O$^{+}$,
+ro-vibrational energy levels, wavefunctions and Einstein coefficients of the
+systems under consideration are computed  employing the nuclear-motion program TROVE.\cite{TROVE,15YaYuxx.method}
+Lifetimes of individual states and overall cooling rates are calculated and analyzed.
+Recently the same methodology was used to estimate the sensitivities of
+hydronium ions  transitions to the variation of the proton-to-electron mass
+ratio.\cite{15OwYuPo.H3O+}
+
+We present a detailed analysis of the stability of the ro-vibrational states and
+identify the most long-living states of these ions. This study is based on the
+methodology \cite{16TeHuNa.method} developed very recently as part of the ExoMol
+project \cite{12TeYuxx.db}. The ExoMol projects aims at the comprehensive
+description of spectroscopic properties of molecules important for atmospheres
+of exoplanets and cool stars. The molecular lifetimes and cooling functions are
+now part of the new ExoMol data format \cite{16TeYuAl.db}.
+
+
+
+%-----------------------------------------------------------------------------
+\section{Theory and computation}
+
+Ro-vibrational energy levels and wavefunctions of the ions under study were
+calculated variationally employing the \TROVE\ program.
+\cite{TROVE,15YaYuxx.method} Similar approach has already been successfully used
+for ro-vibrational calculations of the XY\3\ type molecules
+\cite{08YuThCa.NH3+,10YuCaYa.SbH3,13SoYuTe.PH3,13UnTeYu.SO3,14UnYuTe.SO3,
+15SoAlTe.PH3,15AdYaYuJe.CH3} including ammonia, \cite{09YuBaYa.NH3,11YuBaTe.NH3}
+ which is also characterized by a non-rigid `umbrella' motion as \ohhh.
+ The
+inversion barrier of \ohhh\ is 1167~\cm, which is lower than 1791~\cm\ found
+for of ammonia.\cite{03RaMiHa.NH3} As a result the inversion splitting is
+significantly larger, 55.35~\cm\ (Ref.~\onlinecite{99TaOkxx.H3O+}) against
+0.793~\cm\ (Ref.~\onlinecite{03RaMiHa.NH3}).
+
+We used the \ai\ PES and DMS of \ohhh\ \cite{15OwYuPo.H3O+,15Yuxxxx.15NH3}
+computed using the MRCI/aug-cc-pwCV5Z (5Z) and MRCI/aug-cc-pwCVQZ (QZ) levels of
+theory. The complete basis set (CBS) extrapolation was used for the
+Born-Oppenheimer PES (see Ref.~\onlinecite{15OwYuPo.H3O+} for details).
+
+
+For all \TROVE\ ro-vibrational computations the orders of kinetic and
+potential energy expansions were set to 6 and 8, respectively. We used the
+Morse-type basis functions for stretching modes and numerical basis functions
+(numerical solutions of corresponding 1D problem obtained within the framework
+of the Numerov-Cooley scheme) for bending vibrations. The \ai\ equilibrium
+\ohhh\ structure is characterized by the O-H bond length of about 0.9758~{\AA}
+and H-O-H angle close to 111.95\deg. The vibrational basis set is controlled by
+the polyad number defined by
+\begin{equation}
+\label{e:polyad}
+P = 2(v_1 + v_2 + v_3) + v_4 + v_5 + v_6/2,
+\end{equation}
+where $v_1$, $v_2$, $v_3$ represent the quanta of the stretching, $v_4$ and
+$v_5$ are of the asymmetric bending and $v_6$ is of the inversion primitive
+basis set functions. For this work the maximal polyad  number $P_{\rm max}$ was
+set to 28. The computational details of the basis set construction can be found
+in Ref.~\onlinecite{09YuBaYa.NH3} as well as the details of the calculations of
+Einstein coefficients $A_{if}$. The latter were computed for all possible
+initial, $i$, and final, $f$, states lying below 6000~cm$^{-1}$ relatively to
+the zero point energy. According to our estimations this energy range is
+sufficient to deal with thermodynamic temperatures up to 100~K.
+
+
+
+
+The lifetimes of the states were computed as given by\cite{16TeHuNa.method}
+\begin{equation}
+  \tau_i = \frac{1}{\sum_f A_{if}},
+\end{equation}
+where the summation is taken over all possible the \textit{final} states $f$
+states for the given \textit{initial} state $i$. The Einstein coefficients (1/s)
+are defined as follows:
+\begin{equation}
+A_{if} = \frac{8\pi^{4}\tilde{\nu}_{if}^{3}}{3h}(2J_{i} + 1)\sum_{A=X,Y,Z}
+|\langle \Psi^{f} | \bar{\mu}_{A} | \Psi^{i} \rangle |^{2},
+\label{e:A}
+\end{equation}
+where  $h$ is Planck's constant, $\tilde{\nu}_{if}$ (\cm) is the wavenumber of
+the line, (\(hc \,
+\tilde{\nu}_{if} = E_{f} -E_{i}\)), $J_{i}$ is the rotational quantum number for
+the initial state, \(\Psi^{f}\) and \(\Psi^{i}\) represent the ro-vibrational
+eigenfunctions of the final and initial states respectively, \(\bar{\mu}_{A}\)
+is the electronically averaged component of the dipole moment (Debye) along the
+space-fixed
+axis \(A=X,Y,Z\) (see also \citet{05YuThCa.method}).
+
+At the temperature $T$ the cooling function, $W(T)$, is the total power emitted
+by a molecule and is given by the following expression:\cite{16TeYuAl.db}
+\begin{equation}
+\label{e:cooling}
+  W(T) = \frac{1}{4\pi Q(T)} \sum_{i,f} A_{if} h c \tilde{\nu}_{if} (2 J_i+1)
+g_i \exp\left( \frac{-c_2 \tilde{E}_i}{T} \right) ,
+\end{equation}
+where $\tilde{\nu}_{if}$ is frequency wavenumber of the transition $i \to f$,
+$J_i$ is the rotational quantum number of the initial state and $g_i$ is its
+nuclear spin degeneracy factor. The exponential term is the Boltzmann factor,
+$c_2$ is the second radiation constant and $\tilde{E}_i$ is the wavenumber of
+the corresponding state. The partition function, $Q(T)$, is defined as
+\begin{equation}
+  Q(T) = \sum_{i} g_i  (2J_i+1) \exp\left( \frac{-c_2 \tilde{E}_i}{T} \right) .
+\end{equation}
+Partition functions were computed for each ion employing complete sets of
+obtained ro-vibrational energies.
+
+The same PES and DMS were used for each isotopologue, meaning that
+no allowance was made for the failure of the Born-Oppenheimer approximation.
+The energies of all four
+isotopologues of \ohhh\ considered are very different not only due to the mass
+changes, but also due to the different symmetries these species belong to. We
+used molecular symmetry group  \Dh{3}(M) to classify the ro-vibrational
+states of the symmetric species \ohhh\ and \oddd, and \Cv{2}(M) for the
+asymmetric istopologues \ohhd\ and \ohdd. The difference in the Einstein
+coefficients are also quite profound, especially between symmetric and
+asymmetric isotopologues. Special attention should be paid to the situation when
+isotope substitution of an ion is considered. In this case the position of the
+center-of-mass is displaced and, as a consequence, the total molecular dipole
+moment is changed due to its nuclear contribution (see, for example,
+Ref.~\onlinecite{88Jensen.CH2}). The lifetimes of different isotopologues are
+also expected to differ significantly due to the factors above as well as due to
+the different selection rules and nuclear statistics.
+Selection rules for $J$ are
+\begin{equation}
+ J\p - J\pp = 0,\pm 1  \quad {\rm and} \quad  J\p - J\pp > 0.
+\end{equation}
+The symmetry selection rules for \ohhh\ are
+\begin{equation}
+ A_2\p \leftrightarrow A_2\pp , \quad
+  E\p \leftrightarrow E\pp,
+\end{equation}
+for \oddd\ are
+\begin{equation}
+ A_1\p \leftrightarrow A_1\pp , \quad  A_2\p \leftrightarrow A_2\pp , \quad
+  E\p \leftrightarrow E'',
+\end{equation}
+while those for \ohhd\ and \ohdd\ are
+\begin{equation}
+ A_1 \leftrightarrow A_2, \quad B_1 \leftrightarrow B_2.
+\end{equation}
+
+%n decreasing order of the symmetry degeneracy gns: ortho (E, gns = 16), meta (A1, gns = 10) and para (A2, gns = 1).
+
+Nuclear spin statistics\cite{98BuJexx.method} results in three distinct forms of \oddd, so-called ortho (A$_1$, $g_{ns}=10$), meta (E, $g_{ns}=8$) and para (A$_2$, $g_{ns}=1$). For \ohhh, only ortho (A$_2$, $g_{ns}=4$) and para (E, $g_{ns}=2$) states exist, and ro-vibrational states with symmetries of A$_1'$ and A$_1''$ are missing. \ohhd\ and \ohdd\ both support ortho and para states: B$_1$ and B$_2$ are ortho ($g_{ns}=9$), and A$_1$ and A$_2$ are para ($g_{ns}=3$) for \ohhd, with ortho and para labels swapped for \ohdd, i.e. A$_1$ and A$_2$ are ortho ($g_{ns}=12$), and B$_1$ and B$_2$ are para ($g_{ns}=6$).
+
+
+%Since Eqs.~(\ref{eq:A21}--\ref{eq:partition}) depend on energy eigenvalues, corresponding wavefunctions, electric dipole moment %and symmetries along with nuclear spin statistics. All these properties are affected when constituent atoms are substituted by %their isotopes.
+
+
+%-----------------------------------------------------------------------------
+\section{Results and discussion}
+
+
+The quality of the spectroscopic model employed here for the lifetime
+calculations along with the \ai\ PES and variational method  is demonstrated by
+Table~\ref{tab:Expt}, which compares calculated energies of the isotopologues of
+\ohhh\ with available experimental values. These are very good results for a
+pure \ai\ PES and suggesting that our model should be more than appropriate for purposes of the present
+study.
+
+%especially considering that matrix elements of the dipole moment are not very sensitive to the quality of the underlying PES.
+
+
+\begin{table}[!htbp]
+  \tabcolsep=0.5cm
+  \caption{\label{tab:Expt} Vibrational energies in cm$^{-1}$: comparison with experiment.}
+  \renewcommand{\arraystretch}{0.75}
+  \begin{tabular}{lcdcdd}
+  \hline\hline
+  State & Sym. & \multicolumn{1}{c}{Expt.} & \multicolumn{1}{c}{Ref.} & \multicolumn{1}{c}{Calc.} & \multicolumn{1}{c}{Diff.} \\ \hline
+
+  \multicolumn{6}{l}{H$_3$O$^+$} \\
+
+  $\nu_2^+$   & $A_1$ &  581.17& [\onlinecite{86LiOkSe.H3O+}] &  579.07 &  2.10 \\
+  $2\nu_2^+$  & $A_1$ & 1475.84& [\onlinecite{86DaJoHa.H3O+}] & 1470.67 &  5.17 \\
+  $\nu_1^+$   & $A_1$ & 3445.01& [\onlinecite{99TaOkxx.H3O+}] & 3442.61 &  2.40 \\
+  $\nu_3^+$   &  $E$  & 3536.04& [\onlinecite{99TaOkxx.H3O+}] & 3532.58 &  3.46 \\
+  $\nu_4^+$   &  $E$  & 1625.95& [\onlinecite{87GrPoSa.H3O+}] & 1623.02 &  2.93 \\
+  $0^-$       & $A_1$ &   55.35& [\onlinecite{99TaOkxx.H3O+}] &   55.03 &  0.32 \\
+  $\nu_2^-$   & $A_1$ &  954.40& [\onlinecite{86LiOkSe.H3O+}] &  950.94 &  3.46 \\
+  $\nu_1^-$   & $A_1$ & 3491.17& [\onlinecite{99TaOkxx.H3O+}] & 3488.32 &  2.85 \\
+  $\nu_3^-$   &  $E$  & 3574.29& [\onlinecite{99TaOkxx.H3O+}] & 3571.04 &  3.25 \\
+  $\nu_4^-$   &  $E$  & 1693.87& [\onlinecite{87GrPoSa.H3O+}] & 1690.65 &  3.22 \\
+
+  \multicolumn{6}{l}{D$_3$O$^+$} \\
+
+  $\nu_2^+$   & $A_1$ &  453.74& [\onlinecite{90PeNeOw.H3O+}]&   451.58 &  2.16 \\
+  $\nu_3^+$   & $ E $ & 2629.65& [\onlinecite{90PeNeOw.H3O+}]&  2627.14 &  2.51 \\
+  $0^-$       & $A_1$ &   15.36& [\onlinecite{98ArOzSa.H3O+}]&    15.38 & -0.02 \\
+  $\nu_2^-$   & $A_1$ &  645.13& [\onlinecite{90PeNeOw.H3O+}]&   642.79 &  2.34 \\
+  $\nu_3^-$   & $ E $ & 2639.59& [\onlinecite{90PeNeOw.H3O+}]&  2637.10 &  2.49 \\
+
+
+
+  \multicolumn{6}{l}{H$_2$DO$^+$} \\
+
+  $0^-$       & $B_1$ &     40.56& [\onlinecite{08FuFaxx.H3O+}]&      40.39 &   0.17 \\
+  $\nu_1^+$   & $A_1$ &   3475.97& [\onlinecite{06DoNexx.H3O+}]&    3473.27 &   2.70 \\
+  $\nu_1^-$   & $B_1$ &   3508.63& [\onlinecite{06DoNexx.H3O+}]&    3505.51 &   3.12 \\
+  $\nu_3^+$   & $B_2$ &   3531.50& [\onlinecite{06DoNexx.H3O+}]&    3528.07 &   3.43 \\
+  $\nu_3^-$   & $A_2$ &   3556.94& [\onlinecite{06DoNexx.H3O+}]&    3553.63 &   3.31 \\
+
+  \multicolumn{6}{l}{HD$_2$O$^+$} \\
+
+  $0^-$       & $B_1$ &   26.98& [\onlinecite{08FuFaxx.H3O+}]&    26.92 &  0.06 \\
+
+
+  \hline\hline
+
+  \end{tabular}
+%  \parbox{10.7cm}
+  %{\scriptsize
+  %\begin{flushleft}
+  %$^{\rm a}$ Ref.~\onlinecite{86LiOkSe.H3O+}. \\
+  %$^{\rm b}$ Ref.~\onlinecite{86DaJoHa.H3O+}. \\
+  %$^{\rm c}$ Ref.~\onlinecite{99TaOkxx.H3O+}. \\
+  %$^{\rm d}$ Ref.~\onlinecite{87GrPoSa.H3O+}. \\
+  %$^{\rm e}$ Ref.~\onlinecite{90PeNeOw.H3O+}. \\
+  %$^{\rm f}$ Ref.~\onlinecite{98ArOzSa.H3O+}.
+  %\end{flushleft}}
+
+\end{table}
+
+
+An overview of the lifetimes of the ro-vibrational states ($J<6$) for the
+hydronium ions under study is given in Fig.~\ref{fig:lifetime-1}.  In general
+the lifetimes exhibit the expected gradual reduction with the increase of energy
+with some islands of meta-stable states.  The complete list of lifetimes for all
+four isotopologues are give as supplementary material to this paper.
+
+%\red{CAN WE PUT THE FOLLLOWING INTO A TABLE?}
+%The most long-living states identified are the following.
+%For H$_3$O$^+$ there are
+%$(0,0,A_2'')$, $\tau=23.9$ years;
+%$(1,1,E')$, $\tau=26.2$ years;
+%$(3,3,A_1')$, $\tau=17.7$ years;
+%$(4,1,E'')$, $\tau=140$ years.
+%For D$_3$O$^+$ there are
+%$(1,1,E')$, $\tau=857$ years;
+%$(2,1,E')$, $\tau=190.4$ years;
+%$(3,1,E')$, $\tau=594.4$ years;
+%$(4,1,E'')$, $\tau=3816$ years.
+%For H$_2$DO$^+$ there are
+%$(1,1,B_2)$, $\tau=3$ days;
+%$(2,0,A_1)$, $\tau=265.4$ days;
+%$(2,2,A_1)$, $\tau=89.1$ days;
+%$(1,1,A_2)$, $\tau=4.8$ days.
+%And for HD$_2$O$^+$ there are
+%$(1,1,B_2)$, $\tau=1.8$ days;
+%$(0,0,B_1)$, $\tau=21.6$ days;
+%$(2,1,B_2)$, $\tau=1.4$ days;
+%$(1,1,A_1)$, $\tau=8.9$ days.
+
+\begin{table}[!htbp]
+  \tabcolsep=0.5cm
+  \caption{\label{tab:LF} Longest lifetimes of four ion hydronium ions: all states considered
+are for the vibration-inversion ground state. The notations $(J,K,\Gamma,{\rm state})$ and $(J_{K_a,K_c},\Gamma,{\rm state})$ are used for symmetric and asymmetric isotopolouges are used.}
+  \renewcommand{\arraystretch}{0.75}
+  \begin{tabular}{ldd}
+  \hline\hline
+  State & \multicolumn{1}{c}{Energy, cm$^{-1}$} & \multicolumn{1}{c}{$\tau$} \\ \hline
+\multicolumn{1}{l}{\ohhh}  & & \multicolumn{1}{c}{(years)}         \\
+$(1,0,A_2\p,0^+)$         &   22.47 &             \infty    \\
+$(1,1,E\pp,0^+)$          &   17.38 &             \infty    \\
+$(3,3,A_2\pp,0^+)$        &   88.96 &             \infty    \\
+ $(5,5,E\pp,0^+)$         &  209.58 &            140    \\
+ $(2,1,E\pp,0^+)$         &   62.29 &            26.2   \\
+ $(2,2,E\p,0^+)$          &   47.03 &            23.9   \\
+ $(4,4,E\p,0^+)$          &  144.13 &            17.7   \\
+\hline
+\multicolumn{1}{l}{\oddd}  & & \multicolumn{1}{c}{(years)}        \\
+$(0,0,A_1\p,0^+)$         &  0.00 &             \infty    \\
+$(1,0,A_2\p,0^+)$         &  11.33 &             \infty     \\
+$(1,1,E\pp,0^+)$          &  8.78 &             \infty    \\
+$(3,3,A_2\pp,0^+)$        &  45.02 &             \infty    \\
+$(5,5,E\pp,0^+)$          & 106.15 &         3816   \\
+$(2,2,E\p,0^+)$           &  23.79 &          857  \\
+$(4,4,E\p,0^+)$           &  72.48 &          594.4   \\
+$(3,3,A_1\pp,0^+)$           &  45.02 &          190.4   \\
+\hline
+\multicolumn{1}{l}{\ohhd} & &  \multicolumn{1}{c}{(days)}         \\
+$(0_{0,0}^+,A_1)$           &  0.00 &             \infty    \\
+$(1_{1,1}^+,B_1)$           &  15.70 &             \infty    \\
+$(1_{1,0}^+,B_2)$           &  18.07 &          265.4   \\
+$(2_{2,1}^+,A_2)$           &  55.82 &           89.1   \\
+$(2_{2,0}^+,A_1)$           &  56.60 &            4.8   \\
+$(1_{0,1}^+,A_2)$           &  11.69 &            3   \\
+
+\hline
+\multicolumn{1}{l}{\ohdd} & &  \multicolumn{1}{c}{(days)}         \\
+$(0_{0,0}^{+},A_1)$           &  0.00  &             \infty    \\
+$(1_{1,1}^{+},B_1)$           &  9.53  &             \infty    \\
+$(1_{1,0}^{+},B_2)$           &  14.24 &           21.6   \\
+$(2_{2,1}^{+},A_2)$           &  35.35 &            8.9   \\
+$(1_{0,1}^{+},A_2)$           &  12.19 &            1.8   \\
+$(2_{2,0}^{+},A_1)$           &  27.77 &            1.4   \\
+  \hline\hline
+  \end{tabular}
+
+\end{table}
+
+
+Lifetimes $\tau$  of the most long-lived states of the ions are
+presented  in Table~\ref{tab:LF}, which
+lists states characterized by the longest lifetimes.
+Infinitely long lifetimes can be expected for the lowest state of each nuclear-spin symmetry
+corresponding ortho and para (and meta for \oddd). In addition the $(1_{1,1}^+,B_1)$ state
+for both \ohhh\ and \oddd\ cannot decay via any dipole-allowed transitions so shows
+up as having an infinite lifetime.
+
+The meta-stable states with the longest lifetimes correspond to the low-lying,
+pure rotational (small $J$) states, which have the smallest numbers of channels
+and/or the lowest probability for transitions downwards. Therefore the meta-stable
+states of the more symmetric species \ohhh\ and \oddd\ (\Dh{3}) with stricter
+selection rules live significantly longer (tens to thousands of years) compared
+to the days of \ohdd\ and \ohhd\ (\Cv{2}). For example, \oddd\ has four meta-states
+with the lifetimes longer than 100 years. The longest lived of
+these, at 3816 years,  is the state $(J=5,K=5,E\pp,0^+)$. In comparison, the longest-lived meta-state
+of \ohhd\ $(1_{1,0}^+,B_2)$ has a lifetime of 265 days.
+
+Another important effect from the symmetry lowering \Dh{3} $ \to$  \Cv{2}\ is
+related to the non-zero perpendicular dipole moment components of \ohhd\ and
+\ohdd. This is also illustrated in Fig.~\ref{fig:CM}. The center-of-mass of an
+asymmetric ion is shifted from its geometric center, which causes a non-zero $x$
+dipole moment component. Therefore the orthogonal transitions ($\Delta K=\pm 1$)
+of \ohhd\ and \ohdd\ should be stronger than those of \ohhh\ and \oddd.
+Besides, this component is bigger for HD$_2$O$^+$ than for H$_2$DO$^+$ owing to
+the greater displacement of the molecule center-of-mass. This is the likely  reason
+why lifetimes of the HD$_2$O$^+$ states are shorter on average compared to those of
+H$_2$DO$^+$. The $z$ dipole moment component also changes with isotopic
+substitutions, see Fig.~\ref{fig:CM}.
+
+The lifetimes for the longest living states from Table~\ref{tab:LF}
+of \oddd\ are about 25 times longer than of \ohhh. Apparently,
+this is mainly caused by the shrinking of separation between the ro-vibrational
+energy levels (and lowering of $\tilde{\nu}_{if}$ in Eq.~(\ref{e:A})) which
+results in lower Einstein-A coefficients and thus higher $\tau$.
+
+It is interesting to note the presence of vibrationally excited meta-stable
+states in Fig.~\ref{fig:lifetime-1} between 1000 and 2000~\cm. For example, the
+($J=4, K=4, E\pp$, $\nu_4^-$)  state of \ohhh\ has the significant lifetime of
+22~s. Similarly, the state ($J=4, K=4, A_1\pp$, $\nu_4^-$ ) of \oddd\ lives 39~s.
+
+
+%The transitions to the H$_2$DO$^+$ and HD$_2$O$^+$ forms go with the $D_{3h} \to C_{2v}$ symmetry lowering, which leads to the significant reduction of lifetimes. A certain role here also plays dipole moment transformation, since for partly deuterated isotopologues the $x$-component of dipole moment vector becomes nonzero.
+
+
+
+
+\begin{figure}[!htbp]
+\begin{tabular}{cc}
+  \includegraphics[width=8cm]{figs/h3op-1c.eps} & \includegraphics[width=8cm]{figs/d3op-1c.eps} \\
+
+  \includegraphics[width=8cm]{figs/h2dop-1c.eps}& \includegraphics[width=8cm]{figs/hd2op-1c.eps}\\
+
+\end{tabular}
+
+  \caption{\label{fig:lifetime-1} Calculated lifetimes of the ro-vibrational states ($J<6$) of H$_3$O$^+$ and isotopologues. Lifetime values are plotted in logarithmic scale.}
+
+\end{figure}
+
+
+
+Calculated radiative cooling functions of H$_3$O$^+$ and isotopologues are shown
+in Fig.~\ref{fig:cooling}. One can see that at  temperatures above 30~K
+the cooling $W(T)$  decreases with increasing numbers of deuterium
+atoms. This can be easily understood from Eqs.~(\ref{e:A},\ref{e:cooling}):
+$W(T)$ is proportion to $\tilde\nu_{if}^4$, and $\tilde{\nu}_{if}$ is
+approximately inverse proportional to the mass of hydrogen for the rotational
+states (populated at these temperatures).
+
+
+Therefore at moderate and high temperatures the lighter isotopologues are better
+coolers. However, Fig.~\ref{fig:cooling} shows that at lower temperatures their
+roles are changed: \ohhh\ is an inefficient cooler and cooling by the
+heavier species begins to dominate. This is due to (i) the larger
+rotational constants and thus larger separations between the lowest (coldest)
+meta-stable rotational states of \ohhh, \ohhd, \ohdd, and \oddd\, which are
+47.03~\cm\ ($2,2,E\pp$, $0^-$ \red{CHECK AND ADD THE INVERSION STATE}), 11.70~\cm\ (1,0,$A_2$), 12.19~\cm\ (1,0,$A_2$), and
+23.8~\cm\ (2,2,$E\p$), respectively and (ii) fewer states of \ohhh\ due to the
+nuclear statistics. Therefore it is more difficult to cool \ohhh\ than \oddd\ at
+temperatures below 20--50~K.
+
+The longest meta-stable states (in the absence of the collisions and stimulated
+emissions) are found for \oddd: the population in the ($J=4,E\pp$) state can be
+trapped for 3816 years. This is relatively `hot' state (160~K), at least for the
+standards of the molecular cooling, e.g. storage rings. Such meta-stable states
+will hamper cooling of this molecule to the few Kelvin level. The molecule with
+the shortest-lived meta-stable states is \ohdd, which can still live for days.
+
+
+%\red{DOES NOT IT CONTRADICT THE COOLING FUNCTION?}
+
+
+
+
+%\begin{figure}[!htbp]
+%\begin{tabular}{cc}
+%  \includegraphics[width=8cm]{figs/h3op-2c.eps} & \includegraphics[width=8cm]{figs/d3op-2c.eps} \\
+%  \includegraphics[width=8cm]{figs/h2dop-2c.eps}& \includegraphics[width=8cm]{figs/hd2op-2c.eps}\\
+%\end{tabular}
+%  \caption{\label{fig:lifetime-2} Calculated lifetimes of the most long-living ro-vibrational states of H$_3$O$^+$ and isotopologues.  Energy states are labeled as $(J,K,\Gamma)$. \red{Vlad, please increase the font of axes title, units, labels (i.e. everything)  by a factor of 2}}
+%\end{figure}
+
+
+\begin{figure}%[!htbp]
+
+  \includegraphics[width=9cm]{figs/cooling-log.eps}
+
+  \caption{\label{fig:cooling} Calculated cooling functions of H$_3$O$^+$ and isotopologues.}
+
+
+\end{figure}
+
+
+\begin{figure}%[!htbp]
+
+  \includegraphics[width=9cm]{figs/CM_change.eps}
+
+  \caption{\label{fig:CM} Illustration of the change of the centers-of-mass due to the isotopic substitutions in \ohhh.}
+
+\end{figure}
+
+
+
+%-----------------------------------------------------------------------------
+\section{Conclusions}
+
+
+A theoretical study of the ro-vibrational states of four hydronium ion
+isotopologues has been carried out. \textit{Ab initio} potential energy and
+electric dipole moment surfaces were used to calculate ro-vibrational energy
+levels, corresponding wavefunctions and Einstein coefficients for these ions.
+The results of an analysis of the stability of the ro-vibrational states,
+calculated radiative lifetimes and cooling functions for temperatures below
+100~K are presented.
+
+Our calculations show that the isotopic substitution with deuterium and
+especially the associated asymmetry of the centre-of-mass has a significantly
+effect on the lifetimes. A number of long-living meta-stable states are
+identified, which can lead to corresponding population trapping. The cooling
+function of the main (lightest) isotopologue dominates at higher temperatures
+($T>30$~K) among the four spices studied. However this changes it the very low
+temperatures, when the cooling of \ohhh\ becomes significantly less efficient
+due to the large separation of the energies and also absence of the $A_1\p$ and
+$A_2\pp$ states.
+
+The results obtained can be used to assess the cooling properties of hydronium ion,
+for applications in ion storage rings and elsewhere.
+
+%Our calculations will be useful for estimating the cooling properties of hydronium ions, for %example, storage rings, ro-vibrational relaxation in the stored ion beam.
+
+
+%-----------------------------------------------------------------------------
+\begin{acknowledgments}
+
+This work was supported in part by ``The Tomsk State University Academic D.I. Mendeleev Fund Program'' grant No. 8.1.51.2015, and in part by the ERC under the Advanced Investigator Project 267219 (SNY). SNY and JT thank the support of the COST action MOLIM (CM1405). We thank Andreas Wolf for suggesting the idea of this work.
+
+
+
+\end{acknowledgments}
+
+
+%\begin{thebibliography}{99}
+%\baselineskip=24pt
+
+%\input{paper16-1-refs.tex}
+
+
+%\end{thebibliography}
+
+%\bibliographystyle{elsarticle-num}
+\bibliography{journals_phys,H3O+,SbH3,H3+,NH3,15NH3,linelists,methods,programs,PH3,SO3,NH3p,CH2,CH3,jtj}
+
+
+
+
+\end{document}
+
+
