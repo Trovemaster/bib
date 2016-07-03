@@ -23,48 +23,7 @@ C:\sergei\papers\bib\methods.bib% This file was created with JabRef 2.9.2.
   doi = {10.1016/0009-2614(84)85032-0}
 }
 
-@article{ 13FoHuYa.method,
-Author = {Fortenberry, Ryan C. and Huang, Xinchuan and Yachmenev, Andrey and
-   Thiel, Walter and Lee, Timothy J.},
-Title = {{On the use of quartic force fields in variational calculations}},
-Journal = CPL,
-Year = {{2013}},
-Volume = {{574}},
-Pages = {1-12},
-Abstract = {{Quartic force fields (QFFs) have been shown to be one of the most
-   effective ways to efficiently compute vibrational frequencies for small
-   molecules. In this letter we discuss how the simple-internal or
-   bond-length bond-angle (BLBA) coordinates can be transformed into
-   Morse-cosine (-sine) coordinates which produce potential energy surfaces
-   from QFFs that possess proper limiting behavior and can describe the
-   vibrational (or rovibrational) energy levels of an arbitrary molecular
-   system to 5 cm(-1) or better compared to experiment. We investigate
-   parameter scaling in the Morse coordinate, symmetry considerations, and
-   examples of transformed QFFs making use of the MULTIMODE, TROVE, and
-   VTET variational vibrational methods. }},
-DOI = {{10.1016/j.cplett.2013.03.078}}}
 
-@article{ 15YuBoxx.method,
-Author = {Yu, Qi and Bowman, Joel M.},
-Title = {{Vibrational second-order perturbation theory (VPT2) using local monomer
-   normal modes}},
-Journal = MP,
-Year = {{2015}},
-Volume = {{113}},
-Pages = {3964-3971},
-Abstract = {{Local normal modes have been used recently in vibrational
-   self-consistent field/virtual state configuration interaction
-   calculations of vibrational energies and infrared spectra of water
-   clusters ranging from the water hexamer to bulk water. This approach is
-   termed the local monomer model, and here we show that vibrational
-   second-order perturbation theory (VPT2) can be used with this model. The
-   approach is thus complementary to standard VPT2 theory, but has near
-   linear scaling with the number of monomers, in contrast to standard VPT2
-   theory. The local VPT2 approach is described and then illustrated and
-   tested for the water dimer H2O2 using the ab initio
-   Wang-Huang-Braams-Bowman (WHBB) potential energy surface, mainly for the
-   six intramolecular modes.}},
-DOI = {{10.1080/00268976.2015.1085109}}}
 
 @ARTICLE{98AdZaSt.method,
   author = {Adamson, S O and Zaitsevskii, A and Stepanov, N F},
@@ -1145,9 +1104,9 @@ odified kinetic energy operator. By the TCAP method reflections can be avoided e
 
 @ARTICLE{96IrCaTa.method,
   author = {Irwin, P G J and Calcutt, S B and Taylor, F W and Weir, A L},
-  title = {{Calculated k distribution coefficients for hydrogen- and self-broadened
+  title = {Calculated k distribution coefficients for hydrogen- and self-broadened
 	methane in the range 2000-9500 cm(-1) from exponential sum fitting
-	to band-modelled spectra}},
+	to band-modelled spectra},
   journal = {J. Geophys. Res.-Planets},
   year = {1996},
   volume = {E101},
@@ -1168,6 +1127,7 @@ odified kinetic energy operator. By the TCAP method reflections can be avoided e
 	case for comparison.},
   doi = {10.1029/96JE02707},
   keywords-plus = {ABSORPTION},
+  unique-id = {ISI:A1996VU80200009}
 }
 
 @ARTICLE{88Jensen.method,
@@ -3158,7 +3118,7 @@ Abstract = {{A simple variational procedure, termed DOPI for discrete variable
 DOI = {{10.1080/0026897042000274991}}}
 
 
-@article{ 02Mladena.method,
+@rticle{ 02Mladena.method,
 Author = {Mladenovic, M},
 Title = {{Discrete variable approaches to tetratomic molecules Part I: DVR(6) and
    DVR(3)+DGB methods}},
@@ -3408,61 +3368,18 @@ author = {Tibor Furtenbacher and Attila G. Császár},
 abstract = {Spectroscopic networks (SNs) are large, finite, weighted, undirected, rooted graphs, where the vertices are discrete energy levels, the edges are transitions, and the weights are transition intensities. While first-principles \{SNs\} are “deterministic” by definition, if a realistic transition intensity cut-off is employed during the construction of these SNs, a certain randomness (“stochasticity”) is introduced. Experiments naturally build random graphs. It is shown on the example of the \{HD16O\} isotopologue of the water molecule how intensities, in the present case one-photon absorption intensities, determine the structure as well as the degree distribution and edge density of SNs. The degree distribution of realistic computed \{SNs\} can be described as scale free, with the usual and well known consequences. Experimental SNs, based on measured and assigned transitions, also turn out to be scale free. The graph-theoretical view of high-resolution molecular spectra offers several new ideas for improving the accuracy and robustness of information systems containing spectroscopic data. For example, it is shown that most all rotational–vibrational energy levels are involved in at least a few relatively strong transitions suggesting that an almost complete coverage of experimental quality energy levels can be deduced from measurements. }
 }
 
+
 @article{ 78Schade.methods,
 title = {On the Zeeman effect in electronic transitions of diatomic molecules},
-journal = JQSRT,
+journal = {Journal of Quantitative Spectroscopy and Radiative Transfer},
 volume = {19},
+number = {5},
 pages = {517 - 531},
 year = {1978},
+note = {},
+issn = {0022-4073},
 doi = {http://dx.doi.org/10.1016/0022-4073(78)90020-1},
+url = {http://www.sciencedirect.com/science/article/pii/0022407378900201},
 author = {Aert Schadee},
 abstract = {The Zeeman effect for diatomic molecules is calculated in a representation with Hund's case (a) wave functions as a basis set. The resulting expressions are simpler and easier to handle than those obtained from previous calculations on the basis of cace (b) wave functions. The calculations of intensities and polarization of Zeeman patterns is presented for transitions between doublet states with arbitrary spin-orbit (if Λ≠ 0) or spin-rotation (if Λ = 0) interaction, and for case (a)-case (a) transitions of any multiplicity. These calculations are in good agreement with observations.}
 }
-
-@article{ 16VaHaxx.combs,
-Author = {Vainio, M. and Halonen, L.},
-Title = {{Mid-infrared optical parametric oscillators and frequency combs for
-   molecular spectroscopy}},
-Journal = PCCP,
-Year = {{2016}},
-Volume = {{18}},
-Pages = {4266-4294},
-Abstract = {{Nonlinear optical frequency conversion is one of the most versatile
-   methods to generate wavelength-tunable laser light in the mid-infrared
-   region. This spectral region is particularly important for trace gas
-   detection and other applications of molecular spectroscopy, because it
-   accommodates the fundamental vibrational bands of several interesting
-   molecules. In this article, we review the progress of the most
-   significant nonlinear optics instruments for widely tunable,
-   high-resolution mid-infrared spectroscopy: continuous-wave optical
-   parametric oscillators and difference frequency generators. We extend
-   our discussion to mid-infrared optical frequency combs, which are
-   becoming increasingly important spectroscopic tools, owing to their
-   capability of highly sensitive and selective parallel detection of
-   several molecular species. To illustrate the potential and limitations
-   of mid-infrared sources based on nonlinear optics, we also review
-   typical uses of these instruments in both applied and fundamental
-   spectroscopy.}},
-DOI = {{10.1039/c5cp07052j}}}
-
-@article{ 13MiBuHo.method,
-Author = {Mitroy, Jim and Bubin, Sergiy and Horiuchi, Wataru and Suzuki, Yasuyuki
-   and Adamowicz, Ludwik and Cencek, Wojciech and Szalewicz, Krzysztof and
-   Komasa, Jacek and Blume, D. and Varga, Kalman},
-Title = {{Theory and application of explicitly correlated Gaussians}},
-Journal = RMP,
-Year = {{2013}},
-Volume = {{85}},
-Pages = {693-749},
-Abstract = {{The variational method complemented with the use of explicitly
-   correlated Gaussian basis functions is one of the most powerful
-   approaches currently used for calculating the properties of few-body
-   systems. Despite its conceptual simplicity, the method offers great
-   flexibility, high accuracy, and can be used to study diverse quantum
-   systems, ranging from small atoms and molecules to light nuclei,
-   hadrons, quantum dots, and Efimov systems. The basic theoretical
-   foundations are discussed, recent advances in the applications of
-   explicitly correlated Gaussians in physics and chemistry are reviewed,
-   and the strengths and weaknesses of the explicitly correlated Gaussians
-   approach are compared with other few-body techniques.}},
-DOI = {10.1103/RevModPhys.85.693}}
