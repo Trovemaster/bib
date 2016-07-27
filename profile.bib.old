@@ -138,7 +138,7 @@ DOI = {10.1016/j.jqsrt.2007.06.009}}
 
 @ARTICLE{05PrBrDe.ch4pb,
   author = {Predoi-Cross, A and Brown, L R and Devi, V M and Brawley-Tremblay, M and Benner, D C},
-  title = {{Multi-spectrum analysis of self-broadening and pressure-shifting coefficients of 12CH4 from 4100 to 4635 cm$^{-1}$}},
+  title = {{Multi-spectrum analysis of self-broadening and pressure-shifting coefficients of 12CH4 from 4100 to 4635 cm-1}},
   journal = JMS,
   year = {2005},
   volume = {232},
@@ -148,7 +148,7 @@ DOI = {10.1016/j.jqsrt.2007.06.009}}
 
 @ARTICLE{06PrBrDe.ch4pb,
   author = {Predoi-Cross, A and Brawley-Tremblay, M and Brown, L R and Devi, V M and Benner, D C},
-  title = {{Multi-spectrum analysis of 12CH4 from 4100 to 4635 cm$^{-1}$ II: Air-broadening coefficients (widths and shifts)}},
+  title = {{Multi-spectrum analysis of 12CH4 from 4100 to 4635 cm-1 II: Air-broadening coefficients (widths and shifts)}},
   journal = JMS,
   year = {2006},
   volume = {236},
@@ -188,7 +188,7 @@ DOI = {10.1016/j.jqsrt.2007.06.009}}
 
 @ARTICLE{08AnNiWr.ch4pb,
   author = {Antony, B K and Niles, D L and Wroblewski, S B and Humphrey, C M and Gabard, T and Gamache, R R},
-  title = {{N2-, O2- and air- broadened half-widths and line shifts for transitions in the v3 band of methane in the 2726-3200-cm$^{-1}$ spectral region}},
+  title = {{N2-, O2- and air- broadened half-widths and line shifts for transitions in the v3 band of methane in the 2726-3200-cm-1 spectral region}},
   journal = JMS,
   year = {2008},
   volume = {251},
@@ -323,7 +323,7 @@ keywords = "Database "
 
 @ARTICLE{14LaVoNa.h2opb,
   author = {N. N. Lavrentieva and B. A. Voronin and O. V. Naumenko and A. D. Bykov and A. A. Fedorova},
-  title = {{Linelist of HD$^{16}$O for study of atmosphere of terrestrial planets (Earth, Venus and Mars)}},
+  title = {{Linelist of HD16O for study of atmosphere of terrestrial planets (Earth, Venus and Mars)}},
   journal = {Icarus},
   year = {2014},
   volume = {236},
@@ -342,10 +342,10 @@ keywords = "Database "
 }
 
 @article{Steyert2004183,
-title = "Hydrogen and helium pressure broadening of water transitions in the 380--600 cm$^{-1}$ region ",
+title = "Hydrogen and helium pressure broadening of water transitions in the 380–600 cm−1 region ",
 journal = JQSRT,
 volume = "83",
-pages = "183-191",
+pages = "183 - 191",
 year = "2004",
 doi = "http://dx.doi.org/10.1016/S0022-4073(02)00300-X",
 author = "David W. Steyert and W.F. Wang and J.Marcos Sirota and Neil M. Donahue and Dennis C. Reuter",
@@ -357,7 +357,7 @@ keywords = "Giant planets "
 }
 
 @article{Brown1996263,
-title = "H$_2$-broadened H$_2$$^{16}$O in four infrared bands between 55 and 4045 cm$^{-1}$ ",
+title = "H2-broadened \{H216O\} in four infrared bands between 55 and 4045 cm−1 ",
 journal = JQSRT,
 volume = "56",
 pages = "263 - 282",
@@ -367,7 +367,7 @@ author = "L. R. Brown and C. Plymate"
 }
 
 @article{Gamache1996471,
-title = "Theoretical calculations of pressure broadening coefficients for H$_2$O perturbed by Hydrogen or helium gas ",
+title = "Theoretical calculations of pressure broadening coefficients for \{H2O\} perturbed by Hydrogen or helium gas ",
 journal = JQSRT,
 volume = "56",
 pages = "471 - 487",
@@ -377,7 +377,7 @@ author = "Robert R. Gamache and Richard Lynch and Linda R. Brown"
 }
 
 @article{Dick2009619,
-title = "A collisional cooling investigation of the pressure broadening of the 110--101 transition of water from 17 to 200 K ",
+title = "A collisional cooling investigation of the pressure broadening of the 110←101 transition of water from 17 to 200 K ",
 journal = JQSRT,
 volume = "110",
 pages = "619 - 627",
@@ -391,7 +391,7 @@ keywords = "Temperature dependence "
 }
 
 @article{Langlois1994272,
-title = "Temperature-Dependent Collision-Broadening Parameters of H$_2$O Lines in the 1.4 $\mu$ Region Using Diode Laser Absorption Spectroscopy ",
+title = "Temperature-Dependent Collision-Broadening Parameters of \{H2O\} Lines in the 1.4-μm Region Using Diode Laser Absorption Spectroscopy ",
 journal = JMS,
 volume = "167",
 pages = "272 - 281",
@@ -594,7 +594,7 @@ keyword = {empirical}
 
 @article{95LaPnSu.h2opb,
  author = {V. V. Lazarev AND Y. N. Ponomarev AND B. Sumpf AND O. Fleischmann AND J. Waschull AND H.D. Kronfeldt AND V. N. Stroinova},
- title = {{Noble Gas Pressure-Induced Broadening and Shift of H$_2$O SO2 Absorption Lines}},
+ title = {{Noble Gas Pressure-Induced Broadening and Shift of H2O SO2 Absorption Lines}},
  journal = JMS,
  year = {1995},
  volume = {173},
@@ -645,7 +645,7 @@ n1 band of H12C14N: II. Air- and N2-broadening, shifts and their temperature dep
 
 @article{05Goxxxx.h2opb,
  author = {Y. G. Golubiatnikov},
- title = {{Shifting and broadening parameters of the water vapor 183-GHz line (3$_{13}$--2$_{20}$) by H$_2$O, O$_2$, N$_2$, CO$_2$, H$_2$, He, Ne, Ar, and Kr at room temperature}},
+ title = {{Shifting and broadening parameters of the water vapor 183-GHz line (31 322 0) by H2O, O2, N2, CO2, H2, He, Ne, Ar, and Kr at room temperature}},
  journal = JMS,
  year = {2005},
  volume = {230},
@@ -675,7 +675,7 @@ n1 band of H12C14N: II. Air- and N2-broadening, shifts and their temperature dep
 
 @article{04ZePaCo.h2opb,
  author = {V. Zeninari and B. Parvitte and D. Courtois and N. N. Lavrentieva and Y. N. Ponomarev and G. Durry},
- title = {{Pressure broadening and shift coefficients of H$_2$O due to perturbation by N$_2$, O$_2$, H$_2$ and He in the 1.39 micron region: experiment and calculations}},
+ title = {{Pressure broadening and shift coefficients of H2O due to perturbation by N2, O2, H2 and He in the 1.39 micron region: experiment and calculations}},
  journal = MP,
  year = {2004},
  volume = {102},
@@ -707,7 +707,7 @@ keywords = {Semi-empirical}
 
 
 @article{88FoJeSt.ch4pb,
-title = {Measurements of argon-, helium-, hydrogen-, and nitrogen-broadened widths of methane lines near 9000 cm$^{-1}$},
+title = {Measurements of argon-, helium-, hydrogen-, and nitrogen-broadened widths of methane lines near 9000 cm-1},
 journal = JQSRT,
 volume = {39},
 pages = {473 - 476},
@@ -718,7 +718,7 @@ keyword = {empirical}
 }
 
 @article{93StTaCa.ch4pb,
-title = {Spectral parameters of self- and hydrogen-broadened methane from 2000 to 9500 cm$^{-1}$ for remote sounding of the atmosphere of jupiter},
+title = {Spectral parameters of self- and hydrogen-broadened methane from 2000 to 9500 cm-1 for remote sounding of the atmosphere of jupiter},
 journal = JQSRT,
 volume = {50},
 pages = {363 - 429},
@@ -729,12 +729,12 @@ keyword = {empirical}
 }
 
 @article{16WiGoKo.pb,
-title = {{H$_2$, He, and CO$_2$ line-broadening coefficients, pressure shifts and temperature-dependence exponents for the HITRAN database. Part 1: SO$_2$, NH$_3$, HF, HCl, OCS and C$_2$H$_2$}},
+title = "H2, He, and \{CO2\} line-broadening coefficients, pressure shifts and temperature-dependence exponents for the \{HITRAN\} database. Part 1: SO2, NH3, HF, HCl, \{OCS\} and \{C2H2\} ",
 journal = JQSRT,
 volume = "168",
 pages = "193 - 206",
 year = "2016",
-doi = "10.1016/j.jqsrt.2015.09.003",
+doi = "http://dx.doi.org/10.1016/j.jqsrt.2015.09.003",
 author = "Jonas S. Wilzewski and Iouli E. Gordon and Roman V. Kochanov and Christian Hill and Laurence S. Rothman",
 keywords = "\{HITRAN\} database",
 keywords = "Pressure broadening",
@@ -743,235 +743,3 @@ keywords = "Temperature-dependence",
 keywords = "Planetary atmospheres ",
 abstract = "Abstract To increase the potential for use of the \{HITRAN\} database in astronomy, experimental and theoretical line-broadening coefficients, line shifts and temperature-dependence exponents of molecules of planetary interest broadened by H2, He, and \{CO2\} have been assembled from available peer-reviewed sources. The collected data were used to create semi-empirical models so that every \{HITRAN\} line of the studied molecules has corresponding parameters. Since \{H2\} and He are major constituents in the atmospheres of gas giants, and \{CO2\} predominates in atmospheres of some rocky planets with volcanic activity, these spectroscopic data are important for remote sensing studies of planetary atmospheres. In this paper we make the first step in assembling complete sets of these parameters, thereby creating datasets for SO2, NH3, HF, HCl, \{OCS\} and C2H2. "
 }
-
-@article{Dixxxx.pb,
-  title = {{The Effect of Collisions upon the Doppler Width of Spectral Lines.}},
-  journal = PR,
-  volume = {86},
-  pages = {472-473},
-  year = {1953},
-  author = {R. H. Dicke},
-  keyword = {theory}
-}
-
-@article{WiDixx.pb,
-  title = {{Redetermination of the Hyperfine Splitting in the Ground State of Atomic Hydrogen.}},
-  journal = PR,
-  volume = {103},
-  pages = {620-631},
-  year = {1956},
-  author = {J. P. Wittke AND R. H. Dicke},
-  keyword = {theory}
-}
-   
-
-@article{00LuGoGa.h2opb,
-  title = {{Water vapor overtones pressure line broadening and shifting measurements}},
-  journal = EPJD,
-  volume = {8},
-  pages = {223 - 226},
-  year = {2000},
-  author = {A. Lucchesinia AND S. Gozzini AND C. Gabbanini},
-  keyword = {measured}
-}
-
-@article{16PeSoSoSt.h2opb,
-  title = {{Broadening parameters of the H$_2$O-He collisional system for astrophysical applications}},
-  journal = JMS,
-  volume = {321},
-  pages = {50-58},
-  year = {2016},
-  author = {T. M. Petrova AND A. M. Solodov AND A. A. Solodov and V. I. Starikov},
-  keyword = {measured}
-}
-
-@article{13PeSoSoSt.h2opb,
-  title = {{Vibrational dependence of an intermolecular potential for H$_2$O-He system}},
-  journal = JQSRT,
-  volume = {129},
-  pages = {241-253},
-  year = {2013},
-  author = {T. M. Petrova AND A. M. Solodov AND A. A. Solodov and V. I. Starikov},
-  keyword = {measured}
-}
-
-@article{12PeSoSoSt.h2opb,
-  title = {{Measurements and calculations of He-broadening nad -shifting parameters 
-  of the transitions of the $v_+v_2+v_3$ bands.}},
-  journal = MP,
-  volume = {110},
-  pages = {1493-1503},
-  year = {2012},
-  author = {T. M. Petrova AND A. M. Solodov AND A. A. Solodov and V. I. Starikov},
-  keyword = {measured}
-}
-
-@article{08SoStxx.h2opb,
-  title = {Broadening and shift lines of the $v_2+v_3$ band of 
-  water vapour induced by Helium pressure.},
-  journal = OS,
-  volume = {105},
-  pages = {14-20},
-  year = {2008},
-  author = {A. M. Solodov AND V. I. Starikov},
-  keyword = {measured}
-}
-
-@article{09SoStxx.h2opb,
-  title = {Helium-induced halfwidths and line shifts of water vapour 
-  transitions of the $v_1+v_2$ and $v_2+v_3$ bands.},
-  journal = MP,
-  volume = {104},
-  pages = {43-51},
-  year = {2009},
-  author = {A. M. Solodov AND V. I. Starikov},
-  keyword = {measured}
-}
-
-@article{90GoDexx.h2opb,
-  title = {The pressure broadening of the 313-220 transition of water between 80 - 600K},
-  journal = JMS,
-  volume = {143},
-  pages = {346-358},
-  year = {1990},
-  author = {T. M. Goyette AND F. C. De Lucia},
-  keyword = {measured}
-}
-
-@article{88GoBaxx.h2opb,
-  title = {{Helium-broadened widths of the 183 and 380 GHz lines of water vapour}},
-  journal = CPL,
-  volume = {147},
-  pages = {189-191},
-  year = {1988},
-  author = {M. Godon AND A. Bauer},
-  keyword = {measured}
-}
-
-@article{10PoMiHo.h2opb,
-  title = {{Diode laser spectroscopy of He, N$_2$ and air broadened water vapour transitions 
-  belonging to the $2v_1+v_2+v_3$ overtone band}},
-  journal = MP,
-  volume = {108},
-  pages = {1957-1964},
-  year = {2010},
-  author = {P. Poddar AND S. Mitra AND M. M. Hossain AND D. Biswas AND P. N. Ghosh AND B. Ray},
-  keyword = {measured}
-}
-
-@article{01ClHeHu.h2opb,
-  title = {{Narrowing and broadening parameters of H$_2$O lines perturbed by He, Ne, Ar, Kr and 
-  nitrogen in the spectral range 1850-2140 cm$^{-1}$}},
-  journal = JQSRT,
-  volume = {68},
-  pages = {273-298},
-  year = {2001},
-  author = {C. Claveau AND A. Henry AND D. Hurtmans AND A. Valentin},
-  keyword = {measured}
-}
-
-@article{09ClVaxx.h2opb,
-  title = {{Narrowing and broadening parameters of H$_2$O lines perturbed by Helium, argon and xenon 
-  in the 1170-1440 cm$^{-1}$ spectral range}},
-  journal = MP,
-  volume = {107},
-  pages = {1417-1422},
-  year = {2009},
-  author = {C. Claveau AND A. Valentin},
-  keyword = {measured}
-}
-
-@ARTICLE{10VoLaMi.h2opb,
-  author = {B. A. Voronin and N. N. Lavrentieva and T. P. Mishina and T. Y. Chesnokova and M. J. Barber and J. Tennyson},
-  title = {{Estimate of the J'J'' dependence of water vapour line broadening parameters}},
-  journal = JQSRT,
-  year = {2010},
-  volume = {111},
-  pages = {2308-2314},
-  keyword = {Semi-Empirical}
-}
-
-@article{07MaTiBo.pb,
-  title = {{Modification of the Robert-Bonamy formalism in calculating Lorentzian half-widths and shifts.}},
-  journal = JQSRT,
-  volume = {103},
-  pages = {588-596},
-  year = {2007},
-  author = {Q. Ma and R. H. Tipping and C. Boulet},
-  keyword = {theory}
-}
-
-@article{06AnGaSz.pb,
-  title = {{Modified complex Robert-Bonamy formalism calculations for strong to weak interacting systems.}},
-  journal = MP,
-  volume = {104},
-  pages = {1-9},
-  year = {2006},
-  author = {B. K. Anthony and P. R. Gamache and C. D. Szembek and D. N. Niles and R. R. Gamache},
-  keyword = {theory}
-}
-
-@article{98LyGaNe.h2opb,
-  title = {{N$_2$ and O$_2$ induced half-widths and line shifts of water vapour lines in the (301) - (000) 
-  and (221) - (000)}},
-  journal = JQSRT,
-  volume = {59},
-  pages = {595},
-  year = {1998},
-  author = {R. Lynch and R. R. Gamache and S. P. Neshyba},
-  keyword = {theory}
-}
-
-@article{98GaLyNe.pb,
-  title = {{New developments in the theory of pressure-broadening and presure-shifting of spectral 
-  lines of H$_2$O: The complex Robert-Bonamy formalism.}},
-  journal = JQSRT,
-  volume = {59},
-  pages = {319},
-  year = {1998},
-  author = {R. R. Gamache and R. Lynch and S. P. Neshyba},
-  keyword = {theory}
-}
-
-@phdthesis{95Lyxxxx.h2opb,
-  title = {{Half-widths and line shifts of water vapour perturbed by both nirtogen and oxygen.}},
-  year = {1995},
-  author = {R. Lynch},
-  school = {{Physics Department, University of Massachusetts Lowell}},
-}
-
-@article{ 11Schreier,
-title = {Optimized implementations of rational approximations for the Voigt and complex error function },
-journal = JQSRT,
-volume = {112},
-number = {6},
-pages = {1010 - 1025},
-year = {2011},
-note = {},
-issn = {0022-4073},
-doi = {http://dx.doi.org/10.1016/j.jqsrt.2010.12.010},
-url = {http://www.sciencedirect.com/science/article/pii/S002240731000467X},
-author = {Franz Schreier},
-keywords = {Plasma dispersion function},
-keywords = {Complex probability function},
-keywords = {Python},
-keywords = {Fortran},
-keywords = {Atmospheric radiative transfer },
-abstract = {Rational functions are frequently used as efficient yet accurate numerical approximations for real and complex valued functions. For the complex error function w(x+iy), whose real part is the Voigt function K(x,y), code optimizations of rational approximations are investigated. An assessment of requirements for atmospheric radiative transfer modeling indicates a y range over many orders of magnitude and accuracy better than 10−4. Following a brief survey of complex error function algorithms in general and rational function approximations in particular the problems associated with subdivisions of the x, y plane (i.e., conditional branches in the code) are discussed and practical aspects of Fortran and Python implementations are considered. Benchmark tests of a variety of algorithms demonstrate that programming language, compiler choice, and implementation details influence computational speed and there is no unique ranking of algorithms. A new implementation, based on subdivision of the upper half-plane in only two regions, combining Weideman's rational approximation for small | x | + y &lt; 15 and Humlicek's rational approximation otherwise is shown to be efficient and accurate for all x, y. }
-}
-
-
-
-  	
-@article{ 08FrMaLo,
-  author={Richard S. Freedman and Mark S. Marley and Katharina Lodders},
-  title={Line and Mean Opacities for Ultracool Dwarfs and Extrasolar Planets},
-  journal=AJSS,
-  volume={174},
-  number={2},
-  pages={504},
-  url={http://stacks.iop.org/0067-0049/174/i=2/a=504},
-  year={2008},
-  abstract={Opacities and chemical abundance data are crucial ingredients of ultracool dwarf and extrasolar giant planet atmosphere models. We report here on the detailed sources of molecular opacity data employed by our group for this application. We also present tables of Rosseland and Planck mean opacities, which are of use in some studies of the atmospheres, interiors, and evolution of planets and brown dwarfs. For the tables presented here we have included the opacities of important atomic and molecular species, including the alkali elements, pressure-induced absorption by hydrogen, and other significant opacity sources, but we neglect opacity from condensates. We report for each species how we have assembled molecular line data from a combination of public databases, laboratory data that is not yet in the public databases, and our own numerical calculations. We combine these opacities with abundances computed from a chemical equilibrium model using recently revised solar abundances to compute mean opacities. The chemical equilibrium calculation accounts for the settling of condensates in a gravitational field and is applicable to ultracool dwarf and extrasolar planetary atmospheres, but not circumstellar disks. We find that the inclusion of alkali atomic opacity substantially increases the mean opacities over those currently in the literature at densities relevant to the atmospheres and interiors of giant planets and brown dwarfs. We provide our opacity tables for public use and discuss their limitations.}
-}
-	
