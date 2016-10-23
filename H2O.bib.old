@@ -68,7 +68,7 @@ Abstract = {{Context. The structures of the outer atmospheres of red giants are 
    new empirical evidence that needs to be taken into account and explained
    in any model of these regions.}},
 DOI = {{10.1051/0004-6361/201424851}},
-pages = {A28}}
+Article-Number = {A28}}
 
 
 @article{ 13NeToAg.H2O,
@@ -516,7 +516,7 @@ pages = {10539--10545}
 }
 
 @Article{07MaMuZoSh,
-author = {P. Maksyutenko  and  J. S. Muenter and N. F. Zobov and  S. V. Shirin and  O. L. Polyansky and T. R. Rizzo and O. V. Boyarkin},
+author = {P. Maksyutenko and N. F. Zobov and  S. V. Shirin and  O. L. Polyansky and  J. S. Muenter and T. R. Rizzo and O. V. Boyarkin},
 title  = {Approaching the full set of energy levels of water},
 journal = {J. Chem. Phys.},
 year  = {2007},
@@ -541,6 +541,15 @@ year  = {2010},
 volume  = {133},
 pages = {081103}
 }
+
+@Article{08ShZoPo.H2O,                 
+  author ={S. V. Shirin and  N. F. Zobov  and O. L. Polyansky},
+ journal = {J. Chem. Phys.},
+title = {Water line lists close to experimental accuracy using spectroscopically determined potential energy surface for H$_2$$^{16}$O, H$_2$$^{17}$O and H$_2$$^{18}$O},
+ year  = {2008},
+  volume  = {128},
+    pages = {224306}
+  }
 
 @article{ 98SpNeLe,
 Author = {Spaans, M and Neufeld, D and Lepp, S and Melnick, GJ and Stauffer, J},
@@ -568,7 +577,7 @@ Abstract = {{We report an upper limit of 9 x 10(12) cm(-2) on the column density
    additional velocity component to be identified.}}}
 
 @article{ 93ChCoBr,
-Author = {Chan, W F and Cooper, G and Brion, C E},
+Author = {Chan, W F and Cooper, G and Brion, CE},
 Title = {THE ELECTRONIC-SPECTRUM OF WATER IN THE DISCRETE AND CONTINUUM REGIONS -  ABSOLUTE OPTICAL OSCILLATOR-STRENGTHS FOR PHOTOABSORPTION (6-200 {eV})},
 Journal = CP,
 Year = {{1993}},
@@ -685,7 +694,7 @@ doi = {10.1002/grl.50935, 2013}}
 }
 
 @ARTICLE{00NaBeCa.H2O,
-  author = {Naumenko, O and Bertseva, E and Campargue, A and Schwenke, D W},
+  author = {Naumenko, O and Bertseva, E and Campargue, A and Schwenke, DW},
   title = {Experimental and ab initio studies of the HDO absorption spectrum
 	in the 13165-13500 cm(-1) spectral region},
   journal = JMS,
@@ -808,14 +817,13 @@ doi = {10.1002/grl.50935, 2013}}
 }
 
         @Article{ 11BuPoZo.H2O,
-        author = { I. I. Bubukina  AND O. L.  Polyansky AND N. F.  Zobov AND S. N Yurchenko},
+        author = { I. I. Bubukina  AND O . L.  Polyansky AND N. F.  Zobov AND S.A Yurchenko},
         OPTfile_num = {200},
-        title = {Optimized semiempirical potential energy surface for H-2 O-16 up to 26000 cm(-1)},
+        title = {Accurate water potential energy surface                             },
         journal = {Optics and spectroscopy},
         year  = {2011},
-        volume  = {110},
-        pages = {160-166},
-  DOI= {10.1134/S0030400X11020032},
+        volume  = {277},
+        pages = {346-349},
         }
 
 
@@ -1026,7 +1034,7 @@ abstract = "There are few experimental measurements of absorption by water vapor
 }
 
 @article{97DoKnxx.H2O,
-Author = {Dobbyn, A J and Knowles, P J},
+Author = {Dobbyn, AJ and Knowles, PJ},
 Title = {{A comparative study of methods for describing non-adiabatic coupling:
    diabatic representation of the (1)Sigma(+)/(1)Pi HOH and HHO conical
    intersections}},
@@ -1074,40 +1082,4 @@ Abstract = {{We measured maps of atmospheric water (H2O) and its deuterated form
    Mars (4.5 billion years ago) had a global equivalent water layer at
    least 137 meters deep.}},
 DOI = {{10.1126/science.aaa3630}},
-}
-
-@article{ 16NoNoIs.H2O,
-Author = {Notsu, Shota and Nomura, Hideko and Ishimoto, Daiki and Walsh, Catherine
-   and Honda, Mitsuhiko and Hirota, Tomoya and Millar, T. J.},
-Title = {CANDIDATE WATER VAPOR LINES TO LOCATE THE {H2O} SNOWLINE THROUGH
-   HIGH-DISPERSION SPECTROSCOPIC OBSERVATIONS. I. THE CASE OF A T TAURI
-   STAR},
-Journal = ApJ,
-Year = {{2016}},
-Volume = {{827}},
-Abstract = {{Inside the H2O snowline of protoplanetary disks, water evaporates from
-   the dust-grain surface into the gas phase, whereas it is frozen out onto
-   the dust in the cold region beyond the snowline. H2O ice enhances the
-   solid material in the cold outer part of a disk, which promotes the
-   formation of gas-giant planet cores. We can regard the H2O snowline as
-   the surface that divides the regions between rocky and gaseous giant
-   planet formation. Thus observationally measuring the location of the H2O
-   snowline is crucial for understanding the planetesimal and planet
-   formation processes, and the origin of water on Earth. In this paper, we
-   find candidate water lines to locate the H2O snowline through future
-   high-dispersion spectroscopic observations. First, we calculate the
-   chemical composition of the disk and investigate the abundance
-   distributions of H2O gas and ice, and the position of the H2O snowline.
-   We confirm that the abundance of H2O gas is high not only in the hot
-   midplane region inside the H2O snowline but also in the hot surface
-   layer of the outer disk. Second, we calculate the H2O line profiles and
-   identify those H2O lines that. are promising for locating the H2O
-   snowline: the identified lines are those that have small Einstein A
-   coefficients and high upper state energies. The wavelengths of the
-   candidate H2O lines range from mid-infrared to sub-millimeter, and they
-   overlap with the regions accessible to the Atacama Large
-   Millimeter/submillimeter Array and future mid-infrared high-dispersion
-   spectrographs (e.g., TMT/MICHI, SPICA).}},
-DOI = {{10.3847/0004-637X/827/2/113}},
-pages = {113}}
 }

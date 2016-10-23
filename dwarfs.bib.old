@@ -81,6 +81,7 @@ Title = {RESOLVED NEAR-INFRARED SPECTROSCOPY OF WISE J104915.57-531906.1AB: A
 Journal = ApJ,
 Year = {2013},
 Volume = {772},
+Number = {2},
 DOI = {10.1088/0004-637X/772/2/129},
 pages = {129}}
 
@@ -216,11 +217,14 @@ Keywords = {Galaxy: fundamental parameters; infrared: stars; solar neighborhood;
 Keywords-Plus = {INFRARED-SURVEY-EXPLORER; ORION NEBULA CLUSTER; T-DWARFS; PARALLAXES;
    DISCOVERY; OBJECTS; FRAGMENTATION; DENSITY; STARS; CORES}}
 
+
+  	
 @article{ 07ShBuxx.dwarfs,
   author={C. M. Sharp and A. Burrows},
   title={Atomic and Molecular Opacities for Brown Dwarf and Giant Planet Atmospheres},
   journal=ApJS,
   volume={168},
+  number={1},
   pages={140},
   year={2007},
   abstract={We present a comprehensive description of the theory and practice of opacity calculations from the infrared to the ultraviolet needed to generate models of the atmospheres of brown dwarfs and extrasolar giant planets. Methods for using existing line lists and spectroscopic databases in disparate formats are presented, and plots of the resulting absorptive opacities versus wavelength for the most important molecules and atoms at representative temperature/pressure points are provided. Electronic, rovibrational, bound-free, bound-bound, free-free, and collision-induced transitions and monochromatic opacities are derived, discussed, and analyzed. The species addressed include the alkali metals, iron, heavy metal oxides, metal hydrides, H 2 , H 2 O, CH 4 , CO, NH 3 , H 2 S, PH 3 , and representative grains. Once monochromatic absorption cross sections for all constituents have been derived, chemical abundances have to be obtained before the resulting product can be summed to obtain total opacities. Hence, we include a review of the thermochemistry, techniques, and databases needed to derive equilibrium abundances and provide some sample results.}
@@ -302,7 +306,9 @@ Title = {THE INFRARED TELESCOPE FACILITY {(IRTF)} SPECTRAL LIBRARY: COOL STARS},
 Journal = ApJS,
 Year = {2009},
 Volume = {185},
+Number = {2},
 Pages = {289-432},
+Month = {DEC},
 Abstract = {We present a 0.8-5 mu m spectral library of 210 cool stars observed at a
    resolving power of R equivalent to lambda/Delta lambda similar to 2000
    with the medium-resolution infrared spectrograph, SpeX, at the 3.0 m
@@ -336,7 +342,9 @@ Unique-ID = {ISI:000272465600003},
   title={An Infrared Spectroscopic Sequence of {M}, {L}, and {T} Dwarfs},
   journal=ApJ,
   volume={623},
+  number={2},
   pages={1115},
+  url={http://stacks.iop.org/0004-637X/623/i=2/a=1115},
   doi={10.1086/428040},
   year={2005},
   abstract={We present a 0.6-4.1 μm spectroscopic sequence of M, L, and T dwarfs. The spectra have R ≡ λ/Δλ ≈ 2000 from 0.9
@@ -365,7 +373,9 @@ Title = {A unified near-infrared spectral classification scheme for T dwarfs},
 Journal = ApJ,
 Year = {2006},
 Volume = {637},
+Number = {2, 1},
 Pages = {1067-1093},
+Month = {FEB 1},
 Abstract = {A revised near-infrared classification scheme for T dwarfs is presented,
    based on and superseding prior schemes developed by Burgasser and
    coworkers and Geballe and coworkers, and defined following the precepts
@@ -445,6 +455,8 @@ Title = {The Discovery of Y Dwarfs Using Data From the Wide-Field Infrared Surve
 Journal = ApJ,
 Year = {2011},
 Volume = {743},
+Number = {1},
+Month = {DEC 10},
 Abstract = {We present the discovery of seven ultracool brown dwarfs identified with
    the Wide-field Infrared Survey Explorer (WISE). Near-infrared
    spectroscopy reveals deep absorption bands of H2O and CH4 that indicate
@@ -467,7 +479,7 @@ Abstract = {We present the discovery of seven ultracool brown dwarfs identified 
    effective temperatures ranging from 300 K to 500 K, making them the
    coldest spectroscopically confirmed brown dwarfs known to date.},
 DOI = {10.1088/0004-637X/743/1/50},
-pages = {50},
+Article-Number = {50},
 Keywords = {brown dwarfs; infrared: stars; stars: individual (UGPS
    J072227.51-054031.2, WISEPC J014807.25, 720258.8, WISEP
    J041022.71+150248.5, WISEPC J140518.40+553421.5, WISEP
@@ -486,7 +498,9 @@ Title = {Detection of abundant carbon monoxide in the brown dwarf Gliese {229B}}
 Journal = ApJ,
 Year = {1997},
 Volume = {489},
+Number = {1, 2},
 Pages = {L87-L90},
+Month = {NOV 1},
 Abstract = {We report the detection of carbon monoxide in the atmosphere of the
    brown dwarf Gliese 229B in spectra obtained at wavelengths near 4.7 mu
    m. The spectrum is consistent with mole fractions of CO of more than 50
@@ -500,6 +514,10 @@ DOI = {10.1086/310954},
 Keywords = {infrared, stars; stars, individual (Gliese 229B); stars, low-mass, brown
    dwarfs},
 Keywords-Plus = {INFRARED-ABSORPTION; TEMPERATURES; SPECTRUM; ORIGIN; PAIRS; BAND},
+ResearcherID-Numbers = {Noll, Keith/C-8447-2012
+   Marley, Mark/I-4704-2013},
+Journal-ISO = {Astrophys. J.},
+Unique-ID = {ISI:A1997YE14000021},
 }
 
 
@@ -509,7 +527,9 @@ Title = {The spectrum of the brown dwarf Gliese {229B}},
 Journal = ApJ,
 Year = {1998},
 Volume = {502},
+Number = {2, 1},
 Pages = {932-943},
+Month = {AUG 1},
 Abstract = {We present a spectrum of the cool (T(eff) = 900 K) brown dwarf Gliese
    229B. This spectrum, with a relatively high signal-to-noise ratio per
    spectral resolution element (greater than or similar to 30), spans the
@@ -552,7 +572,9 @@ Title = {The 0.8-14.5 $\mu$m Spectra of mid-{L} to mid-{T} Dwarfs: Diagnostics o
 Journal = ApJ,
 Year = {2009},
 Volume = {702},
+Number = {1},
 Pages = {154-170},
+Month = {SEP 1},
 Abstract = {We present new 5.2-14.5 mu m low-resolution spectra of 14 mid-L to mid-T
    dwarfs. We also present new 3.0-4.1 mu m spectra for five of these
    dwarfs. These data are supplemented by existing red and near-infrared
@@ -594,6 +616,9 @@ Keywords = {stars: individual (2MASS J00361617+1821104, 2MASS J05591914-1404488,
 Keywords-Plus = {SPITZER-SPACE-TELESCOPE; DIGITAL SKY SURVEY; LOW-MASS STARS; FIELD
    L-DWARFS; EXTRASOLAR GIANT PLANETS; COLOR-MAGNITUDE DIAGRAMS; INFRARED
    ARRAY CAMERA; EXOPLANET HOST STAR; BROWN DWARFS; L/T TRANSITION},
+ResearcherID-Numbers = {Noll, Keith/C-8447-2012},
+Journal-ISO = {Astrophys. J.},
+Unique-ID = {ISI:000269244500013},
 }
 
 @article{ 09deMaZa.dwarfs,
@@ -604,7 +629,9 @@ Title = {Physical parameters of {T} dwarfs derived from high-resolution
 Journal = AA,
 Year = {2009},
 Volume = {501},
+Number = {3},
 Pages = {1059-1071},
+Month = {JUL},
 Abstract = {Aims. We determine the effective temperature, surface gravity and
    projected rotational velocity of nine T dwarfs from the comparison of
    high-resolution near-infrared spectra and synthetic models, and estimate
@@ -644,6 +671,7 @@ Keywords-Plus = {EXTRASOLAR GIANT PLANETS; COOL BROWN DWARF; MODEL ATMOSPHERES; 
    229B; PHOTOSPHERIC ENVIRONMENT; DUSTY PHOTOSPHERES; RADIATIVE-TRANSFER;
    SKY SURVEY; DISCOVERY; TRANSITION},
 Journal-ISO = {Astron. Astrophys.},
+Unique-ID = {ISI:000268292200020},
 }
 
 @ARTICLE{96FeLoXX.dwarfs,
@@ -654,6 +682,10 @@ Journal-ISO = {Astron. Astrophys.},
   year = {1996},
   volume = {472},
   pages = {L37},
+  number = {1},
+  owner = {clarasousasilva},
+  publisher = {IOP Publishing},
+  timestamp = {2014.06.29}
 }
 
 
@@ -769,10 +801,19 @@ DOI = {10.1051/0004-6361:200809869}}
    title = {Methane and ammonia in the near-infrared spectra of late-T dwarfs},
    journal = MNRAS,
    volume = {450},
+   number = {1},
    pages = {454-480},
+   ISSN = {0035-8711},
    DOI = {10.1093/mnras/stv586},
+   url = {<Go to ISI>://WOS:000356311600033},
    year = {2015},
+   type = {Journal Article}
 }
+
+
+  	
+	
+
   	
 @article{ 08PeMeLu.dwarfs,
   author={Dawn E. Peterson and S. T. Megeath and K. L. Luhman and J. L. Pipher and J. R. Stauffer and D. Barrado y Navascués and J. C.
@@ -780,7 +821,9 @@ Wilson and M. F. Skrutskie and M. J. Nelson and J. D. Smith},
   title={New Young Brown Dwarfs in the Orion Molecular Cloud 2/3 Region},
   journal= ApJ,
   volume={685},
+  number={1},
   pages={313},
+  url={http://stacks.iop.org/0004-637X/685/i=1/a=313},
   year={2008},
   abstract={Forty new low-mass members with spectral types ranging from M4 to M9 have been confirmed in the Orion Molecular Cloud (OMC) 2/3 region. Through deep, I -, z '-, J -, H -, and K -band photometry of a 20' × 20' field in OMC 2/3, we selected brown dwarf candidates for follow-up spectroscopy. Low-resolution far-red and near-infrared spectra were obtained for the candidates, and 19 young brown dwarfs in the OMC 2/3 region are confirmed. They exhibit spectral types of M6.5-M9, corresponding to approximate masses of 0.075-0.015 M ☉ using the evolutionary models of Baraffe et al. At least one of these bona fide young brown dwarfs has strong Hα emission, indicating that it is actively accreting. In addition, we confirm 21 new low-mass members with spectral types of M4-M6, corresponding to approximate masses of 0.35-0.10 M ☉ in OMC 2/3. By comparing pre-main-sequence tracks to the positions of the members in the H-R diagram, we find that most of the brown dwarfs are less than 1 Myr, but find a number of low-mass stars with inferred ages greater than 3 Myr. The discrepancy in the stellar and substellar ages is due to our selection of only low-luminosity sources; however, the presence of such objects implies the presence of an age spread in the OMC 2/3 region. We discuss possible reasons for this apparent age spread.}
 }
@@ -793,7 +836,9 @@ Tinney and Patrick J. Lowrance},
   title={Discovery of a Very Young Field L Dwarf, 2MASS J01415823–4633574},
   journal=ApJ,
   volume={639},
+  number={2},
   pages={1120},
+  url={http://stacks.iop.org/0004-637X/639/i=2/a=1120},
   year={2006},
   abstract={While following up L dwarf candidates selected photometrically from the Two Micron All Sky Survey, we uncovered an unusual object designated 2MASS J01415823-4633574. Its optical spectrum exhibits very strong bands of vanadium oxide but abnormally weak absorptions by titanium oxide, potassium, and sodium. Morphologically, such spectroscopic characteristics fall intermediate between old field early-L dwarfs [log( g ) ≈ 5] and very late M giants [log( g ) ≈ 0], leading us to favor low gravity as the explanation for the unique spectral signatures of this L dwarf. Such a low gravity can be explained only if this L dwarf is much lower in mass than a typical old field L dwarf of similar temperature and is still contracting to its final radius. These conditions imply a very young age. Further evidence of youth is found in the near-infrared spectrum, including a triangular-shaped H -band continuum, reminiscent of young brown dwarf candidates discovered in the Orion Nebula Cluster. Using the above information along with comparisons to brown dwarf atmospheric and interior models, our current best estimate is that this L dwarf has an age of 1-50 Myr and a mass of 6-25 M J . Although the lack of a lithium detection (pseudo-equivalent width <1 Å) might appear to contradict other evidence of youth, we suggest that lithium becomes weaker at lower gravity like all other alkali lines and thus needs to be carefully considered before being used as a diagnostic of age or mass for objects in this regime. The location of 2MASS 0141-4633 on the sky coupled with a distance estimate of ~35 pc and the above age estimate suggests that this object may be a brown dwarf member of either the 30 Myr old Tucana/Horologium association or the ~12 Myr old β Pic moving group. Distance as determined through trigonometric parallax (underway) and a measure of the total space motion are needed to test this hypothesis.}
 }
@@ -803,7 +848,9 @@ Tinney and Patrick J. Lowrance},
   title={Identifying Young Brown Dwarfs Using Gravity-Sensitive Spectral Features},
   journal= ApJ,
   volume={600},
+  number={2},
   pages={1020},
+  url={http://stacks.iop.org/0004-637X/600/i=2/a=1020},
   year={2004},
   abstract={We report the initial results of the Brown Dwarf Spectroscopic Survey Gravity Project to study gravity sensitive features as indicators of youth in brown dwarfs. Low-resolution ( R ~ 2000) J -band and optical ( R ~ 1000) observations using NIRSPEC and LRIS at the W. M. Keck Observatory reveal transitions of TiO, VO, K I , Na I , Cs I , Rb I , CaH, and FeH. By comparing these features in late-type giants and in old field dwarfs, we show that they are sensitive to the gravity ( g = GM / R 2 ) of the object. Using low-gravity spectral signatures as age indicators, we observed and analyzed J -band and optical spectra of two young brown dwarfs, G196-3B (20-300 Myr) and KPNO Tau 4 (1-2 Myr) and two possible low-mass brown dwarfs in the σ Orionis cluster (3-7 Myr). We report the identification of the ##IMG## [http://ej.iop.org/icons/Entities/phi.gif] {phi} bands of TiO near 1.24 μm and the A-X band of VO near 1.18 μm together with extremely weak J -band lines of K I in KPNO Tau 4. This is the first detection of TiO and VO in the J band in a substellar-mass object. The optical spectrum of KPNO Tau 4 exhibits weak K I andNa I lines, weak absorption by CaH, and strong VO bands, also signatures of a lower gravity atmosphere. G196-3B shows absorption features in both wavelength regions, like those of KPNO Tau 4, suggesting that its age and mass are at the lower end of published estimates. Whereas σ Ori 51 appears to be consistent with a young substellar object, σ Ori 47 shows signatures of high gravity most closely resembling an old L1.5/L0 and cannot be a member of the σ Orionis cluster.}
 }
@@ -814,6 +861,7 @@ Tinney and Patrick J. Lowrance},
   author={Afram, N.},
   isbn={9783867277631},
   series={Diss ETH},
+  url={https://books.google.co.uk/books?id=xtvs5534KowC},
   year={2008},
   publisher={Cuvillier}
 }
@@ -822,10 +870,12 @@ Tinney and Patrick J. Lowrance},
 @article{ 15MoMaFo.dwarfs,
 Author = {Morley, Caroline V. and Marley, Mark S. and Fortney, Jonathan J. and
    Lupu, Roxana and Saumon, Didier and Greene, Tom and Lodders, Katharina},
-Title = {WATER CLOUDS IN {Y} DWARFS AND EXOPLANETS},
+Title = {WATER CLOUDS IN Y DWARFS AND EXOPLANETS},
 Journal = ApJ,
 Year = {2014},
 Volume = {787},
+Number = {1},
+Month = {MAY 20},
 Abstract = {The formation of clouds affects brown dwarf and planetary atmospheres of
    nearly all effective temperatures. Iron and silicate condense in L dwarf
    atmospheres and dissipate at the L/T transition. Minor species such as
@@ -853,13 +903,17 @@ Abstract = {The formation of clouds affects brown dwarf and planetary atmosphere
    instruments, including the James Webb Space Telescope and Gemini Planet
    Imager.},
 DOI = {10.1088/0004-637X/787/1/78},
-pages = {78},
+Article-Number = {78},
 Keywords = {brown dwarfs; planets and satellites: atmospheres; planets and
    satellites: detection; stars: atmospheres},
 Keywords-Plus = {EXTRASOLAR GIANT PLANETS; COOLEST BROWN DWARFS; COLLISION-INDUCED
    ABSORPTION; HR 8799 PLANETS; T-DWARFS; ATMOSPHERIC CHEMISTRY;
    CHEMICAL-EQUILIBRIUM; MODEL ATMOSPHERES; CARBON-MONOXIDE; L/T TRANSITION},
+ResearcherID-Numbers = {Marley, Mark/I-4704-2013
+   Lupu, Roxana/P-9060-2014},
+ORCID-Numbers = {Lupu, Roxana/0000-0003-3444-5908},
 Journal-ISO = {Astrophys. J.},
+Unique-ID = {ISI:000335924200078},
 }
 
 
@@ -872,27 +926,8 @@ Journal-ISO = {Astrophys. J.},
   year = {2014},
   volume = {787},
   pages = {78},
+  number = {1},
+  owner = {clarasousasilva},
+  publisher = {IOP Publishing},
+  timestamp = {2014.07.18}
 }
-
-@article{ 16SkMoAl,
-Author = {Skemer, Andrew J. and Morley, Caroline V. and Allers, Katelyn N. and
-   Geballe, Thomas R. and Marley, Mark S. and Fortney, Jonathan J. and
-   Faherty, Jacqueline K. and Bjoraker, Gordon L. and Lupu, Roxana},
-Title = {THE FIRST SPECTRUM OF THE COLDEST BROWN DWARF},
-Journal = ApJL,
-Year = {{2016}},
-Volume = {{826}},
-Abstract = {{The recently discovered brown dwarf WISE 0855 presents the first
-   opportunity to directly study an object outside the solar system that is
-   nearly as cold as our own gas giant planets. However, the traditional
-   methodology for characterizing brown dwarfs-near-infrared
-   spectroscopy-is not currently feasible, as WISE 0855 is too cold and
-   faint. To characterize this frozen extrasolar world we obtained a
-   4.5-5.2 mu m spectrum, the same bandpass long used to study Jupiter's
-   deep thermal emission. Our spectrum reveals the presence of atmospheric
-   water vapor and clouds, with an absorption profile that is strikingly
-   similar to Jupiter's. The spectrum quality is high enough to allow for
-   the investigation of dynamical and chemical processes that have long
-   been studied in Jupiter's atmosphere, but now on an extrasolar world.}},
-DOI = {{10.3847/2041-8205/826/2/L17}},
-pages = {L17}}

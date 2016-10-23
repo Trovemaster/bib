@@ -1771,12 +1771,12 @@ Abstract = {{Jupiter has a giant magnetosphere that is coupled to the planet's u
 
 @article{16LeReSe.H3+,
 Author = {Lenz, L. F. and Reiners, A. and Seifahrt, A. and Kaeufl, H. U.},
-Title = {{A CRIRES-search for H-3(+) emission from the hot Jupiter atmosphere of
-   HD 209458 b}},
+Title = {A CRIRES-search for H-3(+) emission from the hot Jupiter atmosphere of
+   HD 209458 b},
 Journal = AA,
-Year = {{2016}},
-Volume = {{589}},
-Abstract = {{Close-in extrasolar giant planets are expected to cool their
+Year = {2016},
+Volume = {589},
+Abstract = {Close-in extrasolar giant planets are expected to cool their
    thermospheres by producing H-3(+) emission in the near-infrared (NIR),
    but simulations predict H-3(+) emission intensities that differ in the
    resulting intensity by several orders of magnitude. We want to test the
@@ -1804,9 +1804,10 @@ Abstract = {{Close-in extrasolar giant planets are expected to cool their
    10(16) W for star-planet systems that are close to Earth. We estimate
    that pushing the detection limit down to 10(15) W will be possible with
    ground-based observations with future instrumentation, for example, the
-   European Extremly Large Telescope.}},
-DOI = {{10.1051/0004-6361/201525675}},
-pages = {A99}}
+   European Extremly Large Telescope.},
+DOI = {10.1051/0004-6361/201525675},
+pages = {A99}
+}
 
 
 @article{03CeSpxx,
@@ -1817,6 +1818,7 @@ pages = {A99}}
 	Keywords-Plus = {KINETIC-ENERGY OPERATORS; TRIATOMIC-MOLECULES; VIBRATION; HAMILTONIANS; PROPERTY; H-3+},
 	Pages = {142-145},
 	Title = {Transforming from internal coordinates to Cartesian displacements in the Eckart frame: a Taylor series expansion approach},
+	Unique-Id = {ISI:000181172100017},
 	Volume = {217},
 	Year = {2003}
 }

@@ -258,3 +258,124 @@ year  = {2007},
 volume  = {245},
 pages = {115-125},
 }
+
+@article{ PyVCI,
+Author = {Sibaev, Marat and Crittenden, Deborah L.},
+Title = {{PyVCI: A flexible open-source code for calculating accurate molecular
+   infrared spectra}},
+Journal = CPC,
+Year = {{2016}},
+Volume = {{203}},
+Pages = {290-297},
+Abstract = {{The PyVCI program package is a general purpose open-source code for
+   simulating accurate molecular spectra, based upon force field expansions
+   of the potential energy surface in normal mode coordinates. It includes
+   harmonic normal coordinate analysis and vibrational configuration
+   interaction (VCI) algorithms, implemented primarily in Python for
+   accessibility but with time-consuming routines written in C. Coriolis
+   coupling terms may be optionally included in the vibrational
+   Hamiltonian. Non-negligible VCI matrix elements are stored in sparse
+   matrix format to alleviate the diagonalization problem. CPU and memory
+   requirements may be further controlled by algorithmic choices and/or
+   numerical screening procedures, and recommended values are established
+   by benchmarking using a test set of 44 molecules for which accurate
+   analytical potential energy surfaces are available.
+   Force fields in normal mode coordinates are obtained from the PyPES
+   library of high quality analytical potential energy surfaces (to 6th
+   order) or by numerical differentiation of analytic second derivatives
+   generated using the GAMESS quantum chemical program package (to 4th
+   order).
+   Program summary
+   Program title: PyVCI
+   Catalogue identifier: AFAC\_v1\_0
+   Program summary URL: http://cpc.cs.qub.ac.uk/summaries/AFAC\_v1\_0.html
+   Program obtainable from: CPC Program Library, Queen's University,
+   Belfast, N. Ireland
+   Licensing provisions: MIT License
+   No. of lines in distributed program, including test data, etc.: 401703
+   No. of bytes in distributed program, including test data, etc.: 7091446
+   Distribution format: tar.gz
+   Programming language: Python, C.
+   Computer: PC.
+   Operating system: Linux, MacOSX, Windows.
+   RAM: Varies widely
+   Classification: 16.3.
+   External routines: Numpy, Scipy, Cython
+   Nature of problem: The simulation of accurate molecular vibrational
+   spectra is a significant and long-standing problem in computational
+   chemistry. There are two major challenges: constructing an accurate ab
+   initio potential energy surface and solving the nuclear vibrational
+   problem. Both scale poorly with respect to molecular size, requiring
+   large amounts of CPU time and memory.
+   Solution method: We have implemented a straightforward numerical
+   differentiation algorithm to construct quartic force fields in normal
+   mode coordinates using second derivatives of the energy with respect to
+   nuclear displacement obtained from ab initio quantum chemical
+   calculations, for nuclear vibrational structure algorithm development
+   and testing purposes. We have also provided an interface to the PyPES
+   library of high quality semi-global potential energy surfaces, which
+   enable quantitative prediction of molecular vibrational spectra. To
+   solve the nuclear vibrational problem, we use a vibrational
+   configuration interaction algorithm in a harmonic oscillator basis.
+   Unusual features: One of the unusual features of our code is its
+   flexibility, with multiple ways of generating or supplying force field
+   data, dynamic memory allocation, adjustable screening thresholds, and
+   explicit user control over terms in the VCI wave-function (maximum
+   excitation level and extent of mode coupling). We employ sparse matrix
+   linear algebra libraries to reduce the memory required for VCI matrix
+   storage and diagonalization, and provide for parallel VCI matrix
+   construction to reduce required wall times.
+   Additional comments: User Manual and examples (tutes) included
+   Running time: Varies widely.}},
+DOI = {{10.1016/j.cpc.2016.02.026}}}
+
+
+
+@ARTICLE{ HELIOS,
+   author = {{Malik}, M. and {Grosheintz}, L. and {Mendon{\c c}a}, J.~M. and 
+	{Grimm}, S.~L. and {Lavie}, B. and {Kitzmann}, D. and {Tsai}, S.-M. and 
+	{Burrows}, A. and {Kreidberg}, L. and {Bedell}, M. and {Bean}, J.~L. and 
+	{Stevenson}, K.~B. and {Heng}, K.},
+    title = "{HELIOS: An Open-Source, GPU-Accelerated Radiative Transfer Code For Self-Consistent Exoplanetary Atmospheres}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1606.05474},
+ primaryClass = "astro-ph.EP",
+ keywords = {Astrophysics - Earth and Planetary Astrophysics, Physics - Atmospheric and Oceanic Physics},
+     year = 2016,
+    month = jun,
+   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160605474M},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{ NEMESIS,
+title = {The \{NEMESIS\} planetary atmosphere radiative transfer and retrieval tool },
+journal = JQSRT,
+volume = {109},
+number = {6},
+pages = {1136 - 1150},
+year = {2008},
+note = {Spectroscopy and Radiative Transfer in Planetary Atmospheres },
+issn = {0022-4073},
+doi = {http://dx.doi.org/10.1016/j.jqsrt.2007.11.006},
+url = {http://www.sciencedirect.com/science/article/pii/S0022407307003378},
+author = {P.G.J. Irwin and N.A. Teanby and R. de Kok and L.N. Fletcher and C.J.A. Howett and C.C.C. Tsang and C.F. Wilson and S.B. Calcutt and C.A. Nixon and P.D. Parrish},
+keywords = {Retrievals},
+keywords = {Radiative transfer},
+keywords = {Correlated-k },
+abstract = {With the exception of in situ atmospheric probes, the most useful way to study the atmospheres of other planets is to observe their electromagnetic spectra through remote observations, either from ground-based telescopes or from spacecraft. Atmospheric properties most consistent with these observed spectra are then derived with retrieval models. All retrieval models attempt to extract the maximum amount of atmospheric information from finite sets of data, but while the problem to be solved is fundamentally the same for any planetary atmosphere, until now all such models have been assembled ad hoc to address data from individual missions. In this paper, we describe a new general-purpose retrieval model, Non-linear Optimal Estimator for MultivariatE Spectral analySIS (NEMESIS), which was originally developed to interpret observations of Saturn and Titan from the composite infrared spectrometer on board the \{NASA\} Cassini spacecraft. \{NEMESIS\} has been constructed to be generally applicable to any planetary atmosphere and can be applied from the visible/near-infrared right out to microwave wavelengths, modelling both reflected sunlight and thermal emission in either scattering or non-scattering conditions. \{NEMESIS\} has now been successfully applied to the analysis of data from many planetary missions and also ground-based observations. }
+}
+
+
+
+@ARTICLE{ SPFIT,
+   author = {{Pickett}, H.~M.},
+    title = "{The fitting and prediction of vibration-rotation spectra with spin interactions}",
+  journal = JMS,
+     year = 1991,
+    month = aug,
+   volume = 148,
+    pages = {371-377},
+      doi = {10.1016/0022-2852(91)90393-O},
+   adsurl = {http://cdsads.u-strasbg.fr/abs/1991JMoSp.148..371P},
+}

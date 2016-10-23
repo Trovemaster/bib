@@ -10,6 +10,7 @@ C:\sergei\papers\bib\methods.bib% This file was created with JabRef 2.9.2.
   year = {2006},
   volume = {98},
   pages = {130--155},
+  file = {06SiJaRo.pdf:06SiJaRo.pdf:PDF}
 }
 
 @ARTICLE{84SuRaBo.method,
@@ -846,6 +847,15 @@ odified kinetic energy operator. By the TCAP method reflections can be avoided e
   doi = {{10.1175/1520-0469(1992)049<2139:OTCDMF>2.0.CO;2}}
 }
 
+@ARTICLE{12FuCs.method,
+  author = {T. Furtenbacher and A. G. {Cs\'asz\'ar}},
+  title = {{MARVEL: measured active rotational-vibrational energy levels. II.
+	Algorithmic improvements}},
+  journal = JQSRT,
+  year = {2012},
+  volume = {113},
+  pages = {929-935}
+}
 
 @BOOK{71AmNiTa.method,
   title = {Rotation-vibration of polyatomic molecules},
@@ -1931,6 +1941,50 @@ odified kinetic energy operator. By the TCAP method reflections can be avoided e
   journal-iso = {J. Chem. Phys.}
 }
 
+@ARTICLE{02PeDuxx.ai,
+  author = {K. A. Peterson and T. H. Dunning},
+  title = {{Accurate correlation consistent basis sets for molecular core--valence
+	correlation effects: The second row atoms Al--Ar, and the first row
+	atoms B--Ne revisited }},
+  journal = JCP,
+  year = {{2002}},
+  volume = {{117}},
+  pages = {10548},
+  abstract = {{Correlation consistent basis sets for accurately describing core--core
+	and core--valence correlation effects in atoms and molecules have
+	been developed for the second row atoms Al--Ar. Two different optimization
+	strategies were investigated, which led to two families of core--valence
+	basis sets when the optimized functions were added to the standard
+	correlation consistent basis sets (cc-pVnZ). In the first case, the
+	exponents of the augmenting primitive Gaussian functions were optimized
+	with respect to the difference between all-electron and valence--electron
+	correlated calculations, i.e., for the core--core plus core--valence
+	correlation energy. This yielded the cc-pCVnZ family of basis sets,
+	which are analogous to the sets developed previously for the first
+	row atoms [D. E. Woon and T. H. Dunning, Jr., J. Chem. Phys. 103,
+	4572 (1995)]. Although the cc-pCVnZ sets exhibit systematic convergence
+	to the all-electron correlation energy at the complete basis set
+	limit, the intershell (core--valence) correlation energy converges
+	more slowly than the intrashell (core--core) correlation energy.
+	Since the effect of including the core electrons on the calculation
+	of molecular properties tends to be dominated by core--valence correlation
+	effects, a second scheme for determining the augmenting functions
+	was investigated. In this approach, the exponents of the functions
+	to be added to the cc-pVnZ sets were optimized with respect to just
+	the core--valence (intershell) correlation energy, except that a
+	small amount of core--core correlation energy was included in order
+	to ensure systematic convergence to the complete basis set limit.
+	These new sets, denoted weighted core--valence basis sets (cc-pwCVnZ),
+	significantly improve the convergence of many molecular properties
+	with n. Optimum cc-pwCVnZ sets for the first-row atoms were also
+	developed and show similar advantages. Both the cc-pCVnZ and cc-pwCVnZ
+	basis sets were benchmarked in coupled cluster [CCSD(T)] calculations
+	on a series of second row homonuclear diatomic molecules (Al2, Si2,
+	P2, S2, and Cl2), as well as on selected diatomic molecules involving
+	first row atoms (CO, SiO, PN, and BCl). For the calculation of core
+	correlation effects on energetic and spectroscopic properties, the
+	cc-pwCVnZ basis sets are recommended over the cc-pCVnZ ones.}}
+}
 
 @ARTICLE{91Pixxxx.method,
   author = {H. M. Pickett},
@@ -3166,6 +3220,7 @@ author = { James K.G.   Watson },
 title = {The vibration-rotation hamiltonian of linear molecules},
 journal = MP,
 volume = {19},
+number = {4},
 pages = {465-487},
 year = {1970},
 doi = {10.1080/00268977000101491},
@@ -3200,6 +3255,7 @@ title = {Symmetry adapted ro-vibrational basis functions for variational nuclear
   author = {Yurchenko, Sergei N. and Yachmenev, Andrey},
 journal = JCP,
 volume = {},
+number = {},
 pages = {},
 year = {2016, to be submitted},
 }
@@ -3211,6 +3267,7 @@ Title = {Variational quantum approaches for computing vibrational energies of
 Journal = MP,
 Year = {2008},
 Volume = {106},
+Number = {16-18},
 Pages = {2145-2182},
 Abstract = {In this article, we review state-of-the-art methods for computing
    vibrational energies of polyatomic molecules using quantum mechanical,
@@ -3234,14 +3291,30 @@ Abstract = {In this article, we review state-of-the-art methods for computing
    usefulness of these methods is demonstrated for several example
    molecules, e.g. methane, methanol and the Zundel cation.},
 DOI = {10.1080/00268970802258609},
+Article-Number = {PII 905333076},
 Keywords = {molecular vibrations; quantum methods; methane; methanol; Zundel},
 Keywords-Plus = {TIME-DEPENDENT HARTREE; SELF-CONSISTENT-FIELD; PROTONATED WATER DIMER;
    DISCRETE VARIABLE REPRESENTATION; FILTER-DIAGONALIZATION METHODS;
    BOUND-STATE SPECTRA; N-ATOM PROBLEM; DIMENSIONAL MODEL REPRESENTATIONS;
    SPHERICAL POLAR PARAMETRIZATION; PLESSET PERTURBATION-THEORY},
+ResearcherID-Numbers = {Meyer, Hans-Dieter/B-5611-2008
+   CARRINGTON, Tucker/I-6727-2012},
+ORCID-Numbers = {Meyer, Hans-Dieter/0000-0003-1365-0144
+   CARRINGTON, Tucker/0000-0002-5200-2353},
 Journal-ISO = {Mol. Phys.},
+Unique-ID = {ISI:000260831700012},
 }
 
+
+@ARTICLE{12FuCsi.method,
+  author = {T. Furtenbacher and A. G. {Cs\'asz\'ar}},
+  title = {{MARVEL: measured active rotational-vibrational energy levels. II.
+	Algorithmic improvements}},
+  journal = JQSRT,
+  year = {2012},
+  volume = {113},
+  pages = {929-935}
+}
 
 @ARTICLE{81MoFrCe,
   author = {N. Moiseyev and S. Friedland and P. R. Certain},
@@ -3263,10 +3336,11 @@ Journal-ISO = {Mol. Phys.},
 	Yurchenko},
   title = {Radiative lifetimes and cooling functions for astrophysically important
 	molecules},
-  journal = JPB,
+  journal = {Journal of Physics B: Atomic, Molecular and Optical Physics},
   year = {2016},
   volume = {49},
   pages = {044002},
+  number = {4},
   abstract = {Extensive line lists generated as part of the ExoMol project are used
 	to compute lifetimes for individual rotational, rovibrational and
 	rovibronic excited states, and temperature-dependent cooling functions
@@ -3293,8 +3367,8 @@ doi = {10.1021/ct500174q},
 }
 
 @article{07AdKnWe,
-   author = {Adler, Thomas B. and Knizia, Gerald and Werner, Hans-Joachim},
-   title = {{A simple and efficient CCSD(T)-F12 approximation}},
+   author = "Adler, Thomas B. and Knizia, Gerald and Werner, Hans-Joachim",
+   title = {{A simple and efficient CCSD(T)-F12 approximation"}},
    journal = JCP,
    year = "2007",
    volume = "127",
@@ -3307,43 +3381,33 @@ abstract={{A new explicitly correlated CCSD(T)-F12 approximation is presented an
 title = {Spectroscopic networks },
 journal = JMS,
 volume = {266},
+number = {2},
 pages = {99 - 103},
 year = {2011},
+note = {},
+issn = {0022-2852},
 doi = {http://dx.doi.org/10.1016/j.jms.2011.03.031},
- author = {A. G. {Cs\'asz\'ar} and T. Furtenbacher},
+url = {http://www.sciencedirect.com/science/article/pii/S0022285211000865},
+author = {Attila G. Császár and Tibor Furtenbacher},
 abstract = {Approaches related to graph theory are investigated which allow a better understanding and yield routes for systematic enlargement and improvement of experimental spectroscopic line lists of molecules. The proposed protocols are based on the fact that quantum mechanics builds, in a simple and natural way, large-scale, weighted, undirected graphs, whereby the vertices are discrete energy levels, the edges are transitions, and the weights are transition intensities. A small part of molecular quantum mechanical graphs can be probed experimentally via high-resolution spectroscopic techniques, while the complete graph encompassing the full line list information for a given molecule can be obtained through sophisticated variational nuclear motion computations. Both approaches yield what one may call spectroscopic networks (SNs). It is shown on the example of the \{HD16O\} isotopologue of the water molecule that both the measured and the computed one-photon absorption \{SNs\} have a scale-free behavior with all of the usual consequences, including appearance of hubs, robustness, error tolerance, and the “small-world” property. For the complete computed “deterministic” network the scale-free property holds if a realistic intensity cut-off is employed during its build-up, thus introducing “stochasticity”. The graph-theoretical view of molecular spectra offers several new ideas for improving the accuracy and robustness of the information systems containing high-resolution spectroscopic data. }
 }
 
 
 @article{ 12FuCsxx.methods,
 title = {The role of intensities in determining characteristics of spectroscopic networks },
-  author = {T. Furtenbacher and A. G. {Cs\'asz\'ar}},
 journal = THEOCHEM,
 volume = {1009},
+number = {},
 pages = {123 - 129},
 year = {2012},
-keywords = {\{VIBRATIONAL\} \{INTENSITIES\} - \{THEIR\} \{SIGNIFICANCE\} \{IN\} \{MOLECULAR\} \{SPECTROSCOPY\} \{AND\} \{MOLECULAR\} \{STRUCTUREA\} Collection of Papers dedicated to Professor Boris Galabov on the occasion of his 70th Birthday },
+note = {\{VIBRATIONAL\} \{INTENSITIES\} - \{THEIR\} \{SIGNIFICANCE\} \{IN\} \{MOLECULAR\} \{SPECTROSCOPY\} \{AND\} \{MOLECULAR\} \{STRUCTUREA\} Collection of Papers dedicated to Professor Boris Galabov on the occasion of his 70th Birthday },
+issn = {0022-2860},
 doi = {http://dx.doi.org/10.1016/j.molstruc.2011.10.057},
+url = {http://www.sciencedirect.com/science/article/pii/S002228601100860X},
+author = {Tibor Furtenbacher and Attila G. Császár},
 abstract = {Spectroscopic networks (SNs) are large, finite, weighted, undirected, rooted graphs, where the vertices are discrete energy levels, the edges are transitions, and the weights are transition intensities. While first-principles \{SNs\} are “deterministic” by definition, if a realistic transition intensity cut-off is employed during the construction of these SNs, a certain randomness (“stochasticity”) is introduced. Experiments naturally build random graphs. It is shown on the example of the \{HD16O\} isotopologue of the water molecule how intensities, in the present case one-photon absorption intensities, determine the structure as well as the degree distribution and edge density of SNs. The degree distribution of realistic computed \{SNs\} can be described as scale free, with the usual and well known consequences. Experimental SNs, based on measured and assigned transitions, also turn out to be scale free. The graph-theoretical view of high-resolution molecular spectra offers several new ideas for improving the accuracy and robustness of information systems containing spectroscopic data. For example, it is shown that most all rotational–vibrational energy levels are involved in at least a few relatively strong transitions suggesting that an almost complete coverage of experimental quality energy levels can be deduced from measurements. }
 }
-@ARTICLE{12FuCsi.method,
-  author = {T. Furtenbacher and A. G. {Cs\'asz\'ar}},
-  title = {{MARVEL: measured active rotational-vibrational energy levels. II.
-	Algorithmic improvements}},
-  journal = JQSRT,
-  year = {2012},
-  volume = {113},
-  pages = {929-935}
-}
-@ARTICLE{12FuCs.method,
-  author = {T. Furtenbacher and A. G. {Cs\'asz\'ar}},
-  title = {{MARVEL: measured active rotational-vibrational energy levels. II.
-	Algorithmic improvements}},
-  journal = JQSRT,
-  year = {2012},
-  volume = {113},
-  pages = {929-935}
-}
+
 @article{ 78Schade.methods,
 title = {On the Zeeman effect in electronic transitions of diatomic molecules},
 journal = JQSRT,
@@ -3425,15 +3489,19 @@ DOI = {10.1002/9780470142813.ch1}}
 title = {Impact of the dipole-moment representation on the intensity of high overtones },
 journal = JMS,
 volume = {},
+number = {},
 pages = { - },
 year = {2016},
+note = {},
+issn = {0022-2852},
 doi = {http://dx.doi.org/10.1016/j.jms.2016.06.013},
+url = {http://www.sciencedirect.com/science/article/pii/S0022285216301163},
 author = {Emile S. Medvedev and Vladimir V. Meshkov and Andrey V. Stolyarov and Vladimir G. Ushakov and Iouli E. Gordon},
 keywords = {NIDL},
 keywords = {Spline},
 keywords = {Numerov},
 keywords = {sinc-DVR},
 keywords = {sin-DVR },
-abstract = {{Calculating intensities of ro-vibrational transitions is particularly challenging for transitions from a given vibrational state to all upper states up to the dissociation limit because their probabilities decrease exponentially with increasing Δ n , the change in the vibrational quantum number. The experimental intensities available for low- Δ n values are well reproduced by a variety of models but the models can greatly diverge in predicting the intensities of unobserved high-overtone transitions, the divergence rapidly increasing with the overtone number. In this paper, we investigate the impact of the dipole-moment function (DMF) representation on the high-overtone intensity simulation of the \{CO\} molecule. We tested various \{DMF\} forms including pointwise representation combined with cubic-spline interpolation, power and trigonometric expansions, and Padé approximants. Numerical calculations were performed with the highly accurate empirical potential-energy function (PEF) of Coxon and Hajigeorgiou (2004) using quadruple-precision arithmetic. Most calculated intensities fall off in the entire range of transitions according to the Normal Intensity Distribution Law (NIDL) (Medvedev, 2012). The slope of the \{NIDL\} trend line varies little between different analytical \{DMFs\} for a given \{PEF\} since the slope is basically associated with the PEF. Based on the NIDL, the limits within which the simulated intensities fall off up to the dissociation limit can be established. We claim that \{DMFs\} represented by analytical functions yield best results for all transitions. The pointwise functions (interpolated, in particular, by the conventional cubic splines) result in an unphysical flattening of the intensities at high- Δ n transitions, Δ n &gt; 7 for CO.}}
+abstract = {Abstract Calculating intensities of ro-vibrational transitions is particularly challenging for transitions from a given vibrational state to all upper states up to the dissociation limit because their probabilities decrease exponentially with increasing Δ n , the change in the vibrational quantum number. The experimental intensities available for low- Δ n values are well reproduced by a variety of models but the models can greatly diverge in predicting the intensities of unobserved high-overtone transitions, the divergence rapidly increasing with the overtone number. In this paper, we investigate the impact of the dipole-moment function (DMF) representation on the high-overtone intensity simulation of the \{CO\} molecule. We tested various \{DMF\} forms including pointwise representation combined with cubic-spline interpolation, power and trigonometric expansions, and Padé approximants. Numerical calculations were performed with the highly accurate empirical potential-energy function (PEF) of Coxon and Hajigeorgiou (2004) using quadruple-precision arithmetic. Most calculated intensities fall off in the entire range of transitions according to the Normal Intensity Distribution Law (NIDL) (Medvedev, 2012). The slope of the \{NIDL\} trend line varies little between different analytical \{DMFs\} for a given \{PEF\} since the slope is basically associated with the PEF. Based on the NIDL, the limits within which the simulated intensities fall off up to the dissociation limit can be established. We claim that \{DMFs\} represented by analytical functions yield best results for all transitions. The pointwise functions (interpolated, in particular, by the conventional cubic splines) result in an unphysical flattening of the intensities at high- Δ n transitions, Δ n &gt; 7 for CO. "
 }
 

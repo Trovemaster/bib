@@ -70,7 +70,7 @@
 }
 
 @ARTICLE{95BjGrTh.H2CO,
-  author = {Peter B{\"u}ndgen and Friedrich Grein and Ajit J. Thakkar},
+  author = {Peter Bündgen and Friedrich Grein and Ajit J. Thakkar},
   title = {Dipole and quadrupole moments of small molecules. An ab initio study
 	using perturbatively corrected, multi-reference, configuration interaction
 	wave functions },
@@ -1060,7 +1060,8 @@
 	Andreas},
   title = {{Detection of Formaldehyde in Flames Using UV and MIR Absorption
 	Spectroscopy}},
-  journal = {{Z. Physikalische Chemie}},
+  journal = {{ZEITSCHRIFT FUR PHYSIKALISCHE CHEMIE-INTERNATIONAL JOURNAL OF RESEARCH
+	IN PHYSICAL CHEMISTRY \& CHEMICAL PHYSICS}},
   year = {{2015}},
   volume = {{229}},
   pages = {483-494},
@@ -1744,7 +1745,8 @@ Author = {Ruth, Albert A. and Heitmann, Uwe and Heinecke, Elke and Fittschen,
    Christa},
 Title = {{The Rotationally-Resolved Absorption Spectrum of Formaldehyde from 6547
    to 7051 cm(-1)}},
-Journal = {{Z. Physikalische Chemie}},
+Journal = {{ZEITSCHRIFT FUR PHYSIKALISCHE CHEMIE-INTERNATIONAL JOURNAL OF RESEARCH
+   IN PHYSICAL CHEMISTRY \& CHEMICAL PHYSICS}},
 Year = {{2015}},
 Volume = {{229}},
 Pages = {1609-1624},

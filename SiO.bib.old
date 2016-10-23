@@ -1,20 +1,3 @@
-@article{16Bausch.SiO,
-title = {{The low-lying electronic states of SiO}},
-journal = CPL,
-volume = "658",
-pages = "76 - 79",
-year = "2016",
-doi = "http://dx.doi.org/10.1016/j.cplett.2016.06.023",
-author = "Charles W. {Bauschlicher Jr.}",
-keywords = "Electronic transition ",
-abstract = "Abstract The singlet states of SiO that correlate with ground state atoms have been studied. The computed spectroscopic constants are in good agreement with experiment. The lifetime of the E state has been calculated to be 10.9 ns; this is larger than the results of previous computations and is in excellent agreement with the experimental value of 10.5 ± 1.1 ns. The lifetime of the A state is about three times larger than found in experiment. We suggest that absorption from the X state to the (2) 1 Π state is responsible for the unidentified lines in the experiment of Hormes et al. "
-}
-
-
-
-
-
-
 @article{ 15KrOkCi.SiO,
 Author = {Kraus, M. and Oksala, M. E. and Cidale, L. S. and Arias, M. L. and
    Torres, A. F. and Borges Fernandes, M.},
@@ -8291,17 +8274,3 @@ Pages = {3458-3461}}
   researcherid-numbers = {Yurchenko, Sergey/G-9929-2012 Tennyson, Jonathan/I-2222-2012},
   unique-id = {ISI:000323638200041}
 }
-
-@ARTICLE{ 13MuSpBi.SiO,
-   author = {{M{\"u}ller}, H.~S.~P. and {Spezzano}, S. and {Bizzocchi}, L. and 
-	{Gottlieb}, C.~A. and {Degli Esposti}, C. and {McCarthy}, M.~C.
-	},
-    title = "{Rotational Spectroscopy of Isotopologues of Silicon Monoxide, SiO, and Spectroscopic Parameters from a Combined Fit of Rotational and Rovibrational Data}",
-  journal = JPCA,
- keywords = {molecular data, methods: laboratory, techniques: spectroscopic, radio lines: ISM, ISM: molecules, SiO},
-     year = 2013,
-   volume = 117,
-      doi = {10.1021/jp408391f},
-}
-
-

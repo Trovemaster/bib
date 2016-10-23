@@ -167,13 +167,13 @@ volume = {7},
 pages = {148-152},
 year = {2011}}
 
-@article{ 12TeNoxx,
+@article{ tn11,
 Author = {S. Ten-no and J. Noga},
 Title = {Explicitly correlated electronic structure theory from R12/F12 ans�tz},
-Journal = {WIREs Comput. Mol. Sci.},
-Year = {2012},
-Volume = {2},
-Pages = {114-125}}
+Journal = {Wiley Interdisciplinary Reviews: Computational Molecular Science},
+Year = {2011},
+Volume = {},
+Pages = {(in press)}}
 
 @article{ Car04,
 Author = {Carrington, T},
@@ -482,6 +482,16 @@ Volume = {101},
 Pages = {9817-9829}
 }
 
+@ARTICLE{ps97,
+  author = {Partridge, H. and Schwenke, D. W.},
+  title = {The determination of an accurate isotope dependent potential energy
+        surface for water from extensive ab initio calculations and experimental
+        data},
+  journal = JCP,
+  year = {1997},
+  volume = {106},
+  pages = {4618-4639}
+  }
 
 @article{sp00,
     author  =  {Schwenke, D. W.  and Partridge, H. },
@@ -918,6 +928,19 @@ year = {2011}
   OPTannote =    {}
 }
 
+@Article{cm89,
+  author =       {A. Carrington AND I. R. McNab},
+  title =        {The Infraread Predissocation Spectrum of {H$_3^+$}},
+  journal =      {Accounts of Chemical Research},
+  year =         {1989},
+  OPTkey =       {},
+  volume =       {22},
+  OPTnumber =    {},
+  pages =        {218},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
 
 @article{ J00,
 Author = {Jensen, P},
@@ -1274,6 +1297,14 @@ Journal = {Proc. Soc. Photo. Opt. Instrum. Eng.},
 Year = {1995},
 Volume = {2471},
 Pages = {105-111}}
+
+@article{03FiGaGo,
+Author = {J. Fischer and  R. R. Gamache and A. Goldman and L. S. Rothman and A. Perrin},
+Title = {{Total internal partition sums for molecular species in the 2000 edition of the HITRAN database}},
+Journal = JQSRT,
+Year = {2003},
+Volume = {82},
+Pages = {401-412}}
 
 @article{ gs09,
 Author = {Glover, S. C. O. and Savin, D. W.},
@@ -2326,3 +2357,11 @@ Journal-ISO = {J. Phys. Chem. Ref. Data}
    howpublished  = {private communication}
 }
 
+@article{16HeMaxx,
+author = {Hedges, Christina and Madhusudhan, Nikku}, 
+title = {Effect of Pressure Broadening on Molecular Absorption Cross Sections in Exoplanetary Atmospheres},
+year = {2016}, 
+doi = {10.1093/mnras/stw278}, 
+abstract ={Spectroscopic observations of exoplanets are leading to unprecedented constraints on their atmospheric compositions. However, molecular abundances derived from spectra are degenerate with the absorption cross sections which form critical input data in atmospheric models. Therefore, it is important to quantify the uncertainties in molecular cross sections to reliably estimate the uncertainties in derived molecular abundances. However, converting line lists into cross sections via line broadening involves a series of prescriptions for which the uncertainties are not well understood. We investigate and quantify the effects of various factors involved in line broadening in exoplanetary atmospheres - the profile evaluation width, pressure versus thermal broadening, broadening agent, spectral resolution, and completeness of broadening parameters - on molecular absorption cross sections. We use H2O as a case study as it has the most complete absorption line data. For low resolution spectra (R≲100) for representative temperatures and pressures (T ∼ 500K-3000K, P≲1 atm) of H2-rich exoplanetary atmospheres we find the median difference in cross sections (δ) introduced by various aspects of pressure broadening to be ≲1%. For medium resolutions (R≲5000), including those attainable with JWST, we find that δ can be up to 40%. For high resolutions (R∼105) δ can be ≳100%, reaching ≳1000% for low temperatures (T≲500K) and high pressures (P≳1 atm). The effect is higher still for self broadening. We generate a homogeneous database of absorption cross sections of molecules of relevance to exoplanetary atmospheres for which high temperature line lists are available, particularly H2O, CO, CH4, CO2, HCN, and NH3.}, 
+journal = MNRAS,
+}
